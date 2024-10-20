@@ -1,0 +1,76 @@
+{
+    "Strat": {
+        "Team": [
+            {
+                "content": "Let your luck picked hero",
+                "details": "Random HERO"
+            },
+            {
+                "content": "too much fucking DAMAGEEEEEE",
+                "details": "Pick Carry ALL"
+            },
+            {
+                "content": "Heal Heal Healllll",
+                "details": "Pick hero heal skills only"
+            },
+            {
+                "content": "Avada Kedavra",
+                "details": "Whole team buy dagon"
+            },
+            {
+                "content": "Midwar mode",
+                "details": "All mid whole game like a HON"
+            }
+        ],
+        "Duo": [
+            {
+                "content": "Let your luck picked hero",
+                "details": "ALL RANDOM HERO"
+            },
+            {
+                "content": "FV+IVOKE",
+                "details": "Chrono + Cata = Confirm Kills"
+            },
+            {
+                "content": "Just Stand HERE!!!",
+                "details": "Pick Stuner"
+            }
+        ],
+        "Solo": [
+            {
+                "content": "Let your luck picked hero",
+                "details": "RANDOM HERO"
+            },
+            {
+                "content": "Let your luck picked hero",
+                "details": "Random HERO(STR)"
+            },
+            {
+                "content": "Let your luck picked hero",
+                "details": "Random HERO(AGI)"
+            },
+            {
+                "content": "Let your luck picked hero",
+                "details": "Random HERO(UNIVERSAL)"
+            }
+        ]
+    },
+    "Challenge":[
+        {
+            "ChallengeName": "No 1st Skill",
+            "ChallengeDetails": "Only Three Skills"
+        },
+        {
+            "ChallengeName": "No 2nd Skill",
+            "ChallengeDetails": "Only Three Skills"
+        },
+        {
+            "ChallengeName": "No 3rd Skill",
+            "ChallengeDetails": "Only Three Skills"
+        },
+        {
+            "ChallengeName": "No 4th Skill",
+            "ChallengeDetails": "Only Three Skills"
+        }
+    ]
+}

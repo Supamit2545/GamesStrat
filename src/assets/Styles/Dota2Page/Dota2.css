@@ -1,0 +1,194 @@
+.Dota2-Container{
+    background-image: url('../../img/GameslistPage/Dota2Logo.jpg');
+    width: 100%;
+    height: 100vh;
+    cursor: url('../../img/Dota2Page/cursor.png'), auto;
+    overflow: hidden;
+}
+.Dota2-Body{
+    padding: 16px;
+}
+.Dota2-warning{
+    position: absolute;
+    bottom: 1%;
+    left: 35%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.626);
+    padding: 1% 1%;
+    animation: MoveUP 2s forwards;
+    transition: all 1s ease;
+    z-index: 2;
+}
+.Dota2-warning-text{
+    font-size: 50px;
+    color: rgb(178, 2, 2);
+    text-decoration: underline;
+}
+.Dota2-Contents{
+    background: #55555536;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 95%;
+    height: 85vh;
+    margin: auto;
+    display: flex;
+}
+.Dota2-LeftContent{
+    background: #ffffff42;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 8px;
+    animation: MoveLeft 2s forwards;
+}
+.centerline{
+    width: 100%;
+    border: 2px solid rgb(77, 77, 77);
+}
+.Randomed{
+    transition: all 1s ease;
+    opacity: 1;
+}
+.fade{
+    transition: all 0.5ms ease;
+    opacity: 0;
+}
+.Dota2-Strat-RandomBox{
+    width: 95%;
+    height: 40vh;
+    background: #0303037e;
+    border: 10px solid gray;
+    transition: all 1s ease;
+    margin: 20px auto;
+    color: white;
+    padding: 20px;
+}
+.Dota2-Strat-TeamRaio{
+    border: 2px solid white;
+    border-radius: 10px;
+    color: rgb(197, 193, 193);
+    padding: 0px 20px 0px 0px;
+    font-weight: bold;
+    background: #5b5b61d0;
+}
+.Dota2-Strat-TeamRaio.selected{
+    color: white;
+    border: 2px solid skyblue;
+}
+.Dota2-Strat-TeamRaio:hover{
+    cursor: url('../../img/Dota2Page/cursor.png'), auto;
+}
+.strat-random-btn{
+    margin-top: 40px;
+    border: 4px solid rgb(1, 56, 1);
+    background: rgb(83,189,90);
+    background: radial-gradient(circle, 
+    rgb(36, 114, 41) 1%,
+    rgb(36, 114, 41) 60%,
+     rgba(4,56,0,1) 100%);
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 24px;
+    box-shadow: 2px 3px 10px 5px rgb(39, 39, 39);
+}
+.strat-random-btntext{
+    background: #FFEFEF;
+    background: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.strat-random-btn:hover{
+    background: radial-gradient(circle, 
+    rgb(1, 95, 8) 1%,
+    rgb(1, 255, 18) 50%,
+    rgb(5, 63, 1) 100%
+    );
+    cursor: url('../../img/Dota2Page/cursor-hover.png'), auto;
+}
+.strat-random-btn:active{
+    background: radial-gradient(circle, 
+    rgb(2, 233, 17) 1%,
+    rgb(5, 63, 1) 100%
+    );
+}
+.Dota2-RightContent{
+    background: #ffffff42;
+    width: 100%;
+    height: 100%;
+    animation: MoveRight 2s forwards;
+}
+.Dota2-Challenge-Content{
+    padding: 16px;
+    text-align: center;
+}
+.Dota2-Challenge-Randombox{
+    margin: 20px auto;
+    width: 95%;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.567);
+    border: 10px solid gray;
+    transition: all 1s ease;
+}
+.Challenge-Random{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 17%;
+    background: rgb(0, 166, 255);
+    background: linear-gradient(to right, #ff0000 0%, #04f700ea, #00edfe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 2s ease;
+}
+.Challenge-random-btn{
+    border: 4px solid rgb(254, 0, 0);
+    background: rgb(106,41,41);
+    background: radial-gradient(circle, 
+        rgba(106,41,41,1) 0%,
+        rgba(161,11,11,1) 100%
+    );
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 8%;
+}
+.Challenge-random-btn:hover{
+    border: 4px solid rgb(143, 2, 2);
+    background: rgb(124,2,2);
+    background: radial-gradient(circle, 
+        rgba(124,2,2,1) 0%,
+        rgba(77,0,0,1) 100%
+    );
+    cursor: url('../../img/Dota2Page/cursor-hover-challenge.png'), auto;
+}
+
+@keyframes MoveUP {
+    from{
+        transform: translateY(150px);
+        opacity: 0;
+    }to{
+        transform: translateY(-50px);
+        opacity: 1;
+    }
+}
+@keyframes MoveLeft {
+    from{
+        transform: translateX(-400px);
+        opacity: 0;
+    }to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes MoveRight {
+    from{
+        transform: translateX(400px);
+        opacity: 0;
+    }to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

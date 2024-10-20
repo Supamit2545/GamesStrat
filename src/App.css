@@ -1,0 +1,12 @@
+.main{
+    width: 100%;
+    height: 910px;
+    background-image: url("./assets/Homeimg/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 3s ease;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}

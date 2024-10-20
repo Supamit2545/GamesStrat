@@ -1,0 +1,2150 @@
+{
+    "R6Strat": {},
+    "R6Challenge": {},
+    "R6Charactor": {
+        "Charactor": {
+            "Attacker": [
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/17NnCKm86wr8XUEajrYiOz/c971adfefc7e0910a99b3da91a2573e8/r6s-operators-list-striker.png",
+                    "name": "Striker",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3jhi90ycmuc8mAiuSXFoCi/bcf354459e7becd6ede52ee97917c832/M4.png",
+                                "name": "M4",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7z8UpVPS3P14OC1oL9dDIn/39c0c657f154218003fd4b2a9250b92f/M249.png",
+                                "name": "M249",
+                                "type": "Light_Machine_Gun"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/tkYcSAJSe5yGkeUhzZqBO/e81feb86df4a7eb6951052bec26b6ed7/5.7_USG.png",
+                                "name": "5.7 USG",
+                                "type": "Pistol"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5G4DroaSdqHzJWCe7qqbHZ/5dd2e03f853182c78a1e7fcbc642f0cf/ITA12S.png",
+                                "name": "ITA12S",
+                                "type": "Pistol"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5snW47tH4a5VuPhidr61sm/40b812d32eb85b5c3390865541578bea/r6s-operator-list-ace.png",
+                    "name": "ACE",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7KAZZgnpqD07y47jVVXEuh/e0d7e67101f8f966aa6e1c59e835454f/AK-12.png",
+                                "name": "AK-12",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2pUiVbwNnQnDTesmWXktqW/f27c1fab9a354bb89cbe309a688f5e02/M1014.png",
+                                "name": "M1014",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6Fd1cl17KA0CtgodEiiY6v/d0f145ea72f2aacbd04260ba7d8f1c74/P9.png",
+                                "name": "P9"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6vES8lEllMwW9OaBYRT7YX/39b5fe90684d7ce637a7d025cdd1ec96/r6s-operator-list-iana.png",
+                    "name": "Iana",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6VgkPBsr1WApI3rWc9kcM0/b18b8e25f3e951e8e722213f2ee59eb0/ARX200.png",
+                                "name": "ARX200",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2SZoqSXKoNPvZFIJsFsDE5/cb109885bf19c8697abf832f10cfd9a6/G36C.png",
+                                "name": "G36C",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23AlSVw8MwI1y3ZakEfqgW/c4561ae6e8da8db2627a146b8b55ee6c/GONNE-6_HUD_Icon__1_.png",
+                                "name": "Gonne-6"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3tWoNeF3jQYs3w4EOydQYs/434409c96693df1fd3e969d778e70795/Mk1_9mm_BI.png",
+                                "name": "Mk1 9mm"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/41NACeIbkdnIWgnwq0HzD4/9713f8e58b9a8c253b7507b59169bb3c/r6-operators-list-kali_358317.png",
+                    "name": "Kali",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7tUB9ZNXJhdN6ejAkCEeFQ/99691bcc19f641cf872925905d08a539/CSRX_300.png",
+                                "name": "CSRX 300",
+                                "type": "Marksman_Rifle"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5EtwSgylXckBNg4n6gDR9J/bc6fc6c5c12ae11da59aee95828ebd76/SPSMG9.png",
+                                "name": "SPSMG9"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3wUuefwPjU705mZkTdJ9UH/8ccb11884cfa34c176ac5500af139177/C75_Auto.png",
+                                "name": "C75 Auto"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/RTQvPQcywlRwUS1FjIKCX/6fc72fee2191c2e723276bc10ae4114e/P226_Mk_25.png",
+                                "name": "P226 Mk 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/VeXso9iKMqBDrSmuJ2kBx/b8020ed099ddbdcb31ec809b9d7da152/r6-operators-list-nokk.png",
+                    "name": "Amaru",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4TIb7oeJesaROOOfTlCBaZ/ffd6a802f9a779a0d39b2122c49b3254/G8A1.png",
+                                "name": "G8A1",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2tpjCRFLcc3hogjJGbKDsi/5ad0ab63b7245022aca5c1c1fb42d473/SuperNova.png",
+                                "name": "SuperNova",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23AlSVw8MwI1y3ZakEfqgW/c4561ae6e8da8db2627a146b8b55ee6c/GONNE-6_HUD_Icon__1_.png",
+                                "name": "Gonne-6"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3WExw7Kepz9uAiWAbWW457/875fc631a3cf9fcc2849d9db2989cbcd/SMG-11.png",
+                                "name": "SMG-11"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5G4DroaSdqHzJWCe7qqbHZ/5dd2e03f853182c78a1e7fcbc642f0cf/ITA12S.png",
+                                "name": "ITA12S"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/VeXso9iKMqBDrSmuJ2kBx/b8020ed099ddbdcb31ec809b9d7da152/r6-operators-list-nokk.png",
+                    "name": "Nokk",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/0oneJNsBR06QjuowxwtHG/bd3b391c6eec2bd615f2ed83197a13ac/FMG-9.png",
+                                "name": "FMG-9",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1GTua079Xbtkpjhx96sRsW/079ed1a71a0d12b5e48e1b0d40b87110/SIX12_SD.png",
+                                "name": "SIX12 SD",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/tkYcSAJSe5yGkeUhzZqBO/e81feb86df4a7eb6951052bec26b6ed7/5.7_USG.png",
+                                "name": "5.7 USG"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6mMQRDsrComRFa7bC6cNkG/8cd17e545e3d28dcc11a040d000cfa16/D-50.png",
+                                "name": "D-50"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/27gUsHtPmP86NRs4cPug1o/31ea0005ad1afc68a8ebcc477934ded6/r6-operators-list-gridlock.png",
+                    "name": "Gridlock",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/62tE3th2ThcGHlrcqWkmEX/d69c9de199542e25fa55f6d293f15671/r6-operator-weapon-ar-f90.png",
+                                "name": "F90",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3p0oG7GsLIoHaRullf7xsF/e2a9e135af63e8897355023cd34538c4/M249_SAW.png",
+                                "name": "M249 SAW",
+                                "type": "Light_Machine_Gun"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Dq8LDmIxAveRqXM17orUW/8169927dba6976cee92cc53c7b0960aa/r6-operator-weapon-sa-supershorty.png",
+                                "name": "Super Shorty"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Tgsdyz3XEqmgUYi9aZZgb/6755f4da7af7a7179ffab92acf8d477e/SDP_9mm.png",
+                                "name": "SDP 9mm"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3VHhiyMOUkBOW1u1Zh5eGH/9e603d3e6926fc26ebee494b3040eba7/r6-operators-list-nomad.png",
+                    "name": "Nomad",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1j5HiQP8aFphTe65fqDdg0/23eecb5c603c5ba9f59fc6cbc5e4a531/AK-74M.png",
+                                "name": "AK-74M",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6VgkPBsr1WApI3rWc9kcM0/b18b8e25f3e951e8e722213f2ee59eb0/ARX200.png",
+                                "name": "ARX200",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/dl28J1HsE7mzhj66pmd5D/b8d8fc48d2dde13154047de94abbd8ca/PRB92.png",
+                                "name": "PRB92"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6W3Jz0YcQzbZ6BOPr7VVel/4c67f342964132a652f7d5821e887050/.44_Mag_Semi-Auto.png",
+                                "name": ".44 MAG SEMI-AUTO"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1MmaEupq7KOe6it1trqIWP/3f4246349a36e28f4d9299f9368612c1/r6-operators-list-maverick.png",
+                    "name": "Maverick",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4lGGEGZLkbldz114Wl5hCo/78a04c46654f80fae03e730bd79f3563/AR-15.50.png",
+                                "name": "AR-15.50",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3jhi90ycmuc8mAiuSXFoCi/bcf354459e7becd6ede52ee97917c832/M4.png",
+                                "name": "M4",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/189UukZ6fVnvQR6LJtLYry/6eec29603d5b7b0ca8cab6ac0ef083ac/1911_TACOPS.png",
+                                "name": "1911 TACOPS"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4wYSIOO4AKq0nw1GbulGns/fcd32bda72facd7062a25ad3764f21e9/r6-operators-list-lion.png",
+                    "name": "Lion",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5djkS4YtAtOF0vBmg0T60x/ea2b1ff7e5367e66c99bc7ad7e95bfe3/417.png",
+                                "name": "417",
+                                "type": "Marksman_Rifle"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5JoL3b36Fsztt9Q2XYmrbJ/dacec96948d3f8fe92914a69b9aac593/SG-CQB.png",
+                                "name": "SG-CQB",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5YBZe76NUDO32eF66wW90g/488c315743d59230962a4d67618223d6/V308.png",
+                                "name": "V308",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1zc7UtdBfCZakwbiYqBvSz/1fd3f1584de38ca7c9315d498f094276/LFP586.png",
+                                "name": "LFP586"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6Fd1cl17KA0CtgodEiiY6v/d0f145ea72f2aacbd04260ba7d8f1c74/P9.png",
+                                "name": "P9"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6VkZ60XV4HWhbQaoMpfjnw/1bd7667a572622371627e90e5e572455/r6-operators-list-finka.png",
+                    "name": "Finka",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1wxS2HOCvoPAfnJEDFWjfw/7feddb98582ec37b500243d3f3e19eca/6P41.png",
+                                "name": "6P41",
+                                "type": "Light_Machine_Gun"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2Q6mL4CbifmIgifV2yV3Hi/2bb2b323f055b03a2c1ba516c262c24e/SASG-12.png",
+                                "name": "SASG-12",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/29LjYuJ4s6yA8k9Uv2u28C/89ec812559e7d74b7c269279f4c46d92/Spear_.308.png",
+                                "name": "Spear .308",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5s5Q33j3MNcXf9lwfxfd7m/4eb3a6af1d431481b6ddcec44fbc7602/GSh-18.png",
+                                "name": "GSh-18"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3y4LIwwm8YNQHAv8oOkWCK/a2375901cee34e68fa39c976d85de8aa/PMM.png  ",
+                                "name": "PMM"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7fjUupLXClpcdTyqdvPv24/e4492917c18682ef09f9b0445176b2f2/r6-operators-list-dokkaebi.png",
+                    "name": "Dokkaebi",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6KIMqp5dA95z1RI3PrG9jv/eb939638169811a3fa858a44e6e5d97e/Mk_14_EBR.png",
+                                "name": "Mk 14 EBR",
+                                "type": "Marksman_Rifle"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2ZjVndetsX8WEn5ZfyUQa0/e3a781be7eab22876d25f748e8fd0f5a/BOSG.12.2.png",
+                                "name": "BOSG.12.2",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23AlSVw8MwI1y3ZakEfqgW/c4561ae6e8da8db2627a146b8b55ee6c/GONNE-6_HUD_Icon__1_.png",
+                                "name": "Gonne-6"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/EwJgB7KdgOb6dDm7ro33u/b73f0890f992c1a365210f08efcc6db5/SMG-12.png",
+                                "name": "SMG-12"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3wUuefwPjU705mZkTdJ9UH/8ccb11884cfa34c176ac5500af139177/C75_Auto.png",
+                                "name": "C75 Auto"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/z60t1OJxJoHqm2zp0t5dL/4acc0904444f43b12a17f6a578322cf9/r6-operators-list-zofia.png",
+                    "name": "Zofia",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7JVJIew6t3iKwgByvrFXyi/7ba44dfda28b525506633e453104a604/LMG-E.png",
+                                "name": "LMG-E",
+                                "type": "Light_Machine_Gun"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4oWAgi7tgQP1Tq0HooRtye/9109a74921ee17610d4bd85a61582823/M762.png",
+                                "name": "M762",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2LNSsp7B7wUnnPUweir7Jm/9f66d53be7a63a17a55253a0bea6eec1/RG15.png",
+                                "name": "RG15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/36BxtuVTQFrNh2OPyJ2px3/6db32fa8151b9a925acdd65d289bcf0f/r6-operators-list-ying.png",
+                    "name": "Ying",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23HCxaNTRUHBlFAvCTMZQm/fe319cc164fac034a29e9b114ae7d5cb/T-95_LSW.png",
+                                "name": "T-95 LSW",
+                                "type": "Light_Machine_Gun"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2v6MwsHwjOZ5Muid53lyfN/e5f1c4997db93abfe3ac356fce23376c/SIX12.png",
+                                "name": "SIX12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2fRVszR5yGDHbV0AL8muso/0838dac90b66aa810daa49d36382fb64/Q-929.png",
+                                "name": "Q-929"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/kbyJly2JDRxFrjFSrptiy/ebbdae24cdfed025b0872742bb6c2a96/r6-operators-list-jackal.png",
+                    "name": "Jackal",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/63vTDjkXeKq7rOoSBhoJD4/08603e6603d564e0fa38af9ec86b7c1f/C7E.png",
+                                "name": "C7E",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4yYCuRnduMq35CTHfq6wwU/b7d49cdbcb05917e014c99efeaadd33b/PDW9.png",
+                                "name": "PDW9",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4Y6ziRzm9RiPii83fm8BV1/1f472744d2c2dec8d9206f4d8733d92c/ITA12L.png",
+                                "name": "ITA12L",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7FxemzWRtlpAhK9MyKp1Gp/817cc25b6b7c3575dc1ba53a6a8170a9/USP40.png",
+                                "name": "USP40"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5G4DroaSdqHzJWCe7qqbHZ/5dd2e03f853182c78a1e7fcbc642f0cf/ITA12S.png",
+                                "name": "ITA12S"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7mAs4mz2zA4wjPZsNg6tys/e4fbdbfe20406c2655b56ba420b839aa/r6-operators-list-hibana.png",
+                    "name": "Hiabana",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7wLf325q9amF8bnVP1QGr0/2faff1a197f90dcded4472852a317d6b/Type-89.png",
+                                "name": "Type-89",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2tpjCRFLcc3hogjJGbKDsi/5ad0ab63b7245022aca5c1c1fb42d473/SuperNova.png",
+                                "name": "SuperNova",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/76ja0RxqzHW9PpvWgpG7Sk/cb753b50b20fe67deaef54d8b2a46b54/P229.png",
+                                "name": "P229"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4mdftEOh5Vu9KhhpgKLKrT/abedcc75868774018295ec2a08a7b3de/Bearing_9.png",
+                                "name": "Bearing 9"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3AZlhNFA21aKL2MdAIEwa8/abfce9018a7a08c120d707fbc28ae709/r6-operators-list-capitao.png",
+                    "name": "Capitao",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7z8UpVPS3P14OC1oL9dDIn/39c0c657f154218003fd4b2a9250b92f/M249.png",
+                                "name": "M249",
+                                "type": "Light_Machine_Gun"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ub8y2Cs5EYhVPfDWuVVkW/82ca131a41ee4ba2e0b75f2dc52ed9e3/PARA-308.png",
+                                "name": "PARA-308",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23AlSVw8MwI1y3ZakEfqgW/c4561ae6e8da8db2627a146b8b55ee6c/GONNE-6_HUD_Icon__1_.png",
+                                "name": "Gonne-6"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/dl28J1HsE7mzhj66pmd5D/b8d8fc48d2dde13154047de94abbd8ca/PRB92.png",
+                                "name": "PRB92"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5u6Ak7dkTb4yOjaP1hlGuT/0cdd45963fd8c83c62f609c7319bbf05/r6-operators-list-blackbeard.png",
+                    "name": "Blackbeard",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4LytczDQmu0M63gO2WtCCm/331ef3b1938352ae71d7c0bd23de3596/Mk17_CQB.png",
+                                "name": "Mk17 CQB",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3H3sICdj6BK8LhtQPRd2aJ/26826ebba73e0e5fd503256d069f3256/SR-25.png",
+                                "name": "SR-25",
+                                "type": "Marksman_Rifle"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6mMQRDsrComRFa7bC6cNkG/8cd17e545e3d28dcc11a040d000cfa16/D-50.png",
+                                "name": "D-50"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6eIdbZWLBIdtCygNAu9uue/8856e29f0e9ebc3b6ed996223586ebce/r6-operators-list-sledge.png",
+                    "name": "Buck",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1itXpz2GnvdwwRyhX1SYa2/b58ff71048fa3bb5ed09d5d935dc90f4/C8-SFW.png",
+                                "name": "C8-SFW",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4dBzqVVmnpv1DZi91LAnEN/e374b4ea289fc992280b943cdbb94d60/CAMRS.png",
+                                "name": "CAMRS",
+                                "type": "Marksman_Rifle"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3tWoNeF3jQYs3w4EOydQYs/434409c96693df1fd3e969d778e70795/Mk1_9mm_BI.png",
+                                "name": "Mk1 9mm"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6eIdbZWLBIdtCygNAu9uue/8856e29f0e9ebc3b6ed996223586ebce/r6-operators-list-sledge.png",
+                    "name": "Sledge",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5vYQpoyk36foDzDq49jBd0/1479a2d7189e545555ceccecf6bd7cc3/L85A2.png",
+                                "name": "L85A2",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2zRHmgqENNiZqXQxC9Rsbj/e6542407c642f9b7c5a4546afb6db30a/M590A1.png",
+                                "name": "M590A1",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/RTQvPQcywlRwUS1FjIKCX/6fc72fee2191c2e723276bc10ae4114e/P226_Mk_25.png",
+                                "name": "P226 Mk 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5QGPM6l25ybaINnaIaLgvm/d018abc75d44758d666ad6bea0a38a9b/r6-operators-list-thatcher.png",
+                    "name": "Thatcher",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/16U6xEvX8I5xQd9duveBLN/45d22960872cfa3fb6be9eb47fa0be4e/AR33.png",
+                                "name": "AR33",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5vYQpoyk36foDzDq49jBd0/1479a2d7189e545555ceccecf6bd7cc3/L85A2.png",
+                                "name": "L85A2",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                               "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2zRHmgqENNiZqXQxC9Rsbj/e6542407c642f9b7c5a4546afb6db30a/M590A1.png",
+                                "name": "M590A1",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/RTQvPQcywlRwUS1FjIKCX/6fc72fee2191c2e723276bc10ae4114e/P226_Mk_25.png",
+                                "name": "P226 Mk 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/QOEBDfqjtUxVBc31l8L9f/4d9b112565baf81d56d69279b95cd463/r6-operators-list-ash_317253.png",
+                    "name": "Ash",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2SZoqSXKoNPvZFIJsFsDE5/cb109885bf19c8697abf832f10cfd9a6/G36C.png",
+                                "name": "G36C",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/dQbqK9VxczuiscwBDSkT8/777a062f6095dde0371eab5200dcb451/R4-C.png",
+                                "name": "R4-C",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/tkYcSAJSe5yGkeUhzZqBO/e81feb86df4a7eb6951052bec26b6ed7/5.7_USG.png",
+                                "name": "5.7 USG"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3u5cecgWYl3WuJK50mKEGd/a4a0eb15c710edfc0d29e98c2ee7ea33/M45_MEUSOC.png",
+                                "name": "M45 MEUSOC"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3NQW8lJVslVSaYSiBlAleU/09fd8e3e946f2e71f39182b9ff18dd77/r6-operators-list-thermite.png",
+                    "name": "Thermite",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2pUiVbwNnQnDTesmWXktqW/f27c1fab9a354bb89cbe309a688f5e02/M1014.png",
+                                "name": "M1014",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2dgpAeAWb3SkZV7rxDbVdQ/fa32323256b7c6f8a1977d3f71e7d4b2/556xi.png",
+                                "name": "556xi",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/tkYcSAJSe5yGkeUhzZqBO/e81feb86df4a7eb6951052bec26b6ed7/5.7_USG.png",
+                                "name": "5.7 USG"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3u5cecgWYl3WuJK50mKEGd/a4a0eb15c710edfc0d29e98c2ee7ea33/M45_MEUSOC.png",
+                                "name": "M45 MEUSOC"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1hxlGxmToB93urkgbIzUvW/fa894cd6ab38358284a3a1858cabbeee/r6-operators-list-montagne.png",
+                    "name": "Montagne",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1bmXJOakdA6SOrGxBKA70T/1e489e366d6db287f475963df2040d3d/Extendable-Shield.png",
+                                "name": "LE ROC SHIELD",
+                                "type": "SHIELD"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6Fd1cl17KA0CtgodEiiY6v/d0f145ea72f2aacbd04260ba7d8f1c74/P9.png",
+                                "name": "P9"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1zc7UtdBfCZakwbiYqBvSz/1fd3f1584de38ca7c9315d498f094276/LFP586.png",
+                                "name": "LFP586"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Z9R1Anc8MHwbG5iyPoOf2/69fe9aee30e03322a4e09d4b87de15aa/r6-operators-list-twitch.png",
+                    "name": "Twitch",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3jhi90ycmuc8mAiuSXFoCi/bcf354459e7becd6ede52ee97917c832/M4.png",
+                                "name": "F2",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5JoL3b36Fsztt9Q2XYmrbJ/dacec96948d3f8fe92914a69b9aac593/SG-CQB.png",
+                                "name": "SG-CQB",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3jhi90ycmuc8mAiuSXFoCi/bcf354459e7becd6ede52ee97917c832/M4.png",
+                                "name": "417",
+                                "type": "Marksman_Rifle"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6Fd1cl17KA0CtgodEiiY6v/d0f145ea72f2aacbd04260ba7d8f1c74/P9.png",
+                                "name": "P9"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1zc7UtdBfCZakwbiYqBvSz/1fd3f1584de38ca7c9315d498f094276/LFP586.png",
+                                "name": "LFP586"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4NZvCtXwtcCq1s65H7mK5y/8d70872df8319e1d162a31bbf404ed2c/r6-operators-list-blitz.png",
+                    "name": "blitz",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7qmWjGZayvK4t6E80Gvu7g/8b789d6d639744dce100c2cfb9709e6a/G52-Tactical_Shield.png",
+                                "name": "G52-Tactical Shield",
+                                "type": "SHIELD"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2mpM7rah7rwEW0bViIirUC/ed9caa4db58421519fa4db390b1aa164/P12.png",
+                                "name": "P12"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3lP88YKPk0boUyisZD0LT7/6b3ef86531c459ef9e573f056d6eddf5/r6-operators-list-iq.png",
+                    "name": "IQ",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1eO39zRe8XxJXH1KZiIWhM/02049ced0fbfa630833e8b0d3c03de07/AUG_A2.png",
+                                "name": "AUG A2",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1LT0N89YaOHvRwn3Pphr8K/02d4a3da9cda132d8201fd134f24fede/552_Commando.png",
+                                "name": "552 Commando",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4TIb7oeJesaROOOfTlCBaZ/ffd6a802f9a779a0d39b2122c49b3254/G8A1.png",
+                                "name": "G8A1",
+                                "type": "Light_Machine_Gun"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2mpM7rah7rwEW0bViIirUC/ed9caa4db58421519fa4db390b1aa164/P12.png",
+                                "name": "P12"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/BsiNYFp7htro1mOEgiKf1/eef48a78d9a7c1cb2dcac07e1d06edb1/r6-operators-list-fuze.png",
+                    "name": "Fuze",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7KAZZgnpqD07y47jVVXEuh/e0d7e67101f8f966aa6e1c59e835454f/AK-12.png",
+                                "name": "AK-12",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1wxS2HOCvoPAfnJEDFWjfw/7feddb98582ec37b500243d3f3e19eca/6P41.png",
+                                "name": "6P41",
+                                "type": "Light_Machine_Gun"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2C21gwsjOka5Rwp8qSM5hA/a38937032260bce4f690fb9bb8adf4c0/Ballistic_Shield.png",
+                                "name": "Ballistic Shield",
+                                "type": "SHIELD"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3y4LIwwm8YNQHAv8oOkWCK/a2375901cee34e68fa39c976d85de8aa/PMM.png",
+                                "name": "PMM"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5s5Q33j3MNcXf9lwfxfd7m/4eb3a6af1d431481b6ddcec44fbc7602/GSh-18.png",
+                                "name": "GSh-18"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6R6uQlUmkh7KYoFYeeGpvj/fb92cfe1a0501d63a0ffa417c004e84e/r6-operators-list-glaz.png",
+                    "name": "Glaz",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4fXznwDtLt61VCF8QIF4N3/34e2e6d6c33d4c504c945bdd13c322f6/OTs-03.png",
+                                "name": "OTs-03",
+                                "type": "Marksman_Rifle"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3y4LIwwm8YNQHAv8oOkWCK/a2375901cee34e68fa39c976d85de8aa/PMM.png",
+                                "name": "PMM"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23AlSVw8MwI1y3ZakEfqgW/c4561ae6e8da8db2627a146b8b55ee6c/GONNE-6_HUD_Icon__1_.png",
+                                "name": "Gonne-6"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4mdftEOh5Vu9KhhpgKLKrT/abedcc75868774018295ec2a08a7b3de/Bearing_9.png",
+                                "name": "Bearing 9"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2TV52rbjzuWtMGezWio1ox/2ec949f545995fc79fb3dc393a650992/r6s-operators-list-deimos.png",
+                    "name": "Deimos",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1j5HiQP8aFphTe65fqDdg0/23eecb5c603c5ba9f59fc6cbc5e4a531/AK-74M.png",
+                                "name": "AK-74M",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2zRHmgqENNiZqXQxC9Rsbj/e6542407c642f9b7c5a4546afb6db30a/M590A1.png",
+                                "name": "M590A1",
+                                "type":"SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2kx8YFXaz4l9A3iJctZ33h/30f25aff1e25daf0dff88d258423adcf/44VENDETTA.png",
+                                "name": ".44 VENDETTA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7uO4bXss6I8nCRVOxYKxEf/5be8def62a24cc353d1342296b9a5f27/r6s-operators-list-ram.png",
+                    "name": "Ram",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7JVJIew6t3iKwgByvrFXyi/7ba44dfda28b525506633e453104a604/LMG-E.png",
+                                "name": "LMG-E",
+                                "type": "Light_Machine_Gun"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/dQbqK9VxczuiscwBDSkT8/777a062f6095dde0371eab5200dcb451/R4-C.png",
+                                "name": "R4-C",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3tWoNeF3jQYs3w4EOydQYs/434409c96693df1fd3e969d778e70795/Mk1_9mm_BI.png",
+                                "name": "Mk1 9mm"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5G4DroaSdqHzJWCe7qqbHZ/5dd2e03f853182c78a1e7fcbc642f0cf/ITA12S.png",
+                                "name": "ITA12S"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7piw6czbaAsv6NnYXtJZay/02683e035ab9481bbe8cbf669113c84d/r6s-operators-list-brava.png",
+                    "name": "Brava",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ub8y2Cs5EYhVPfDWuVVkW/82ca131a41ee4ba2e0b75f2dc52ed9e3/PARA-308.png",
+                                "name": "PARA-308",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4dBzqVVmnpv1DZi91LAnEN/e374b4ea289fc992280b943cdbb94d60/CAMRS.png",
+                                "name": "CAMRS",
+                                "type": "Marksman_Rifle"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7FxemzWRtlpAhK9MyKp1Gp/817cc25b6b7c3575dc1ba53a6a8170a9/USP40.png",
+                                "name": "USP40"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Dq8LDmIxAveRqXM17orUW/8169927dba6976cee92cc53c7b0960aa/r6-operator-weapon-sa-supershorty.png",
+                                "name": "Super Shorty"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7fwxcTrdNLQbXkfBJglLaN/38d901042d7debc709c266a46f856d7e/r6s-operators-list-grim.png",
+                    "name": "Grim",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1LT0N89YaOHvRwn3Pphr8K/02d4a3da9cda132d8201fd134f24fede/552_Commando.png",
+                                "name": "552 Commando",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5JoL3b36Fsztt9Q2XYmrbJ/dacec96948d3f8fe92914a69b9aac593/SG-CQB.png",
+                                "name": "SG-CQB",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/N8FLbo4fsNyBe8msKgRhT/8f403dc0b58087bcafab786dd95ba33f/Bailiff_410.png",
+                                "name": "Bailiff 410"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/76ja0RxqzHW9PpvWgpG7Sk/cb753b50b20fe67deaef54d8b2a46b54/P229.png",
+                                "name": "P229"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1ieRqIy6e47QH48sTp1W4a/59f8188d94ae610bf76da26b4fef0b92/r6s-operators-list-sens.png",
+                    "name": "Sens",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5djkS4YtAtOF0vBmg0T60x/ea2b1ff7e5367e66c99bc7ad7e95bfe3/417.png",
+                                "name": "417",
+                                "type": "Marksman_Rifle"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1bhuAox7U6aHN6UriXsAry/3c213cd27f5f64ba01a29b42e5b24ac5/POF9.png",
+                                "name": "POF9",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Tgsdyz3XEqmgUYi9aZZgb/6755f4da7af7a7179ffab92acf8d477e/SDP_9mm.png",
+                                "name": "SDP 9mm"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3Dg95rvyhPtw588r60vIPM/75e609068a0b205cc4dbc7bf3e517f51/r6s-operators-list-osa.png",
+                    "name": "Osa",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2dgpAeAWb3SkZV7rxDbVdQ/fa32323256b7c6f8a1977d3f71e7d4b2/556xi.png",
+                                "name": "556xi",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4yYCuRnduMq35CTHfq6wwU/b7d49cdbcb05917e014c99efeaadd33b/PDW9.png",
+                                "name": "PDW9",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3y4LIwwm8YNQHAv8oOkWCK/a2375901cee34e68fa39c976d85de8aa/PMM.png",
+                                "name": "PMM"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3hXRjYHsrlFOocJjyxyYZY/29eb8f1ad9eab150518a053b775c336f/r6s-operators-list-flores.png",
+                    "name": "Flores",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/16U6xEvX8I5xQd9duveBLN/45d22960872cfa3fb6be9eb47fa0be4e/AR33.png",
+                                "name": "AR33",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3H3sICdj6BK8LhtQPRd2aJ/26826ebba73e0e5fd503256d069f3256/SR-25.png",
+                                "name": "SR-25",
+                                "type": "Marksman_Rifle"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5s5Q33j3MNcXf9lwfxfd7m/4eb3a6af1d431481b6ddcec44fbc7602/GSh-18.png",
+                                "name": "GSh-18"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/24jDQIfDdVMLX5K54pKNe5/58dec3b1e7d32a637bc76560e0cf0385/r6s-operator-list-zero.png",
+                    "name": "Zero",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3a4dgTWGdiJqALhtRp4pKy/f2568d3de3cfe7e4b53179e8653cd2a2/MP7.png",
+                                "name": "MP7",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7x7eDTm2NNpfGiFMrfQqEX/9898e74c780537be3ca6d88db32ea21e/F2000.png",
+                                "name": "SC3000K",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/tkYcSAJSe5yGkeUhzZqBO/e81feb86df4a7eb6951052bec26b6ed7/5.7_USG.png",
+                                "name": "5.7 USG"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23AlSVw8MwI1y3ZakEfqgW/c4561ae6e8da8db2627a146b8b55ee6c/GONNE-6_HUD_Icon__1_.png",
+                                "name": "Gonne-6"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Defender": [
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3lK6qZnfGtclnA6uhyGovV/63e2969f276794c8c240c207c34e41a6/r6s-operators-list-skopos.png",
+                    "name": "Skopos",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/jKFNRujDQyioHLu0PULiR/a3dce57946beba1378566c386cfa0270/pcx-33.png",
+                                "name": "PCX-33",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/76ja0RxqzHW9PpvWgpG7Sk/cb753b50b20fe67deaef54d8b2a46b54/P229.png",
+                                "name": "P229"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1gOsEc5wt8VRtjEupN4TEL/9e8a27ecb654702bae1b07bf124126b1/r6s-operators-list-sentry.png",
+                    "name": "Sentry",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4P9dpUph5w3MSsLNnW6be/04baba24990fcb75a9c0bcfd01b7d190/Commando_9.png",
+                                "name": "Commando 9",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2rkU6g4Rlg0e0U4rczWGTV/a51589a54c43f476d8eb984c0ea881e9/M870.png",
+                                "name": "M870",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3wUuefwPjU705mZkTdJ9UH/8ccb11884cfa34c176ac5500af139177/C75_Auto.png",
+                                "name": "C75 Auto"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Dq8LDmIxAveRqXM17orUW/8169927dba6976cee92cc53c7b0960aa/r6-operator-weapon-sa-supershorty.png",
+                                "name": "Super Shorty"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1ceva9aObGqSk9C9UNehdK/8541f4312f3b363c0692b7ce19e40725/r6s-operators-list-tubarao.png",
+                    "name": "Tubarao",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5HFewpAJ8npDDCKFnEadhL/d398bb477d6b56fe41bfdb5862ed31c0/MPX.png",
+                                "name": "MPX",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4lGGEGZLkbldz114Wl5hCo/78a04c46654f80fae03e730bd79f3563/AR-15.50.png",
+                                "name": "AR-15.50",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/RTQvPQcywlRwUS1FjIKCX/6fc72fee2191c2e723276bc10ae4114e/P226_Mk_25.png",
+                                "name": "P226 Mk 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/336St2UBdDDhJnI1Nbcqo9/845b0822369af2bb64e2ff7f2e7292f9/r6s-operators-list-fenrir.png",
+                    "name": "Fenrir",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3a4dgTWGdiJqALhtRp4pKy/f2568d3de3cfe7e4b53179e8653cd2a2/MP7.png",
+                                "name": "MP7",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2Q6mL4CbifmIgifV2yV3Hi/2bb2b323f055b03a2c1ba516c262c24e/SASG-12.png",
+                                "name": "SASG-12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/tkYcSAJSe5yGkeUhzZqBO/e81feb86df4a7eb6951052bec26b6ed7/5.7_USG.png",
+                                "name": "5.7 USGs"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/N8FLbo4fsNyBe8msKgRhT/8f403dc0b58087bcafab786dd95ba33f/Bailiff_410.png",
+                                "name": "Bailiff 410"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2OV2K9FVqJdSNAogr0Wpod/62f2016a6c660714eb9a3c4a1f8196d4/r6s-operators-list-solis.png",
+                    "name": "Solid",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4Y6ziRzm9RiPii83fm8BV1/1f472744d2c2dec8d9206f4d8733d92c/ITA12L.png",
+                                "name": "ITA12L",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4nGrNspOvII2oS3lEMkg5x/2398a493c298bc654f97c58767aa40f3/P90.png",
+                                "name": "P90",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3WExw7Kepz9uAiWAbWW457/875fc631a3cf9fcc2849d9db2989cbcd/SMG-11.png",
+                                "name": "SMG-11"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5M7OGhXfAf5Q0Cdo1YJkRE/2e4c141357cf97d54c6840ee38f6bf76/r6s-operators-list-azami.png",
+                    "name": "Azami",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/akx58K4vXn1v2Q4C3sgrB/03425922f23cc8887b6e73c4d06ad387/9X19SVN.png",
+                                "name": "9X19SVN",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/13z63kT1NLzn1U99o7WC4T/8655d3200f24b87246c36f2622603457/ACS12_PB.png",
+                                "name": "ACS12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6mMQRDsrComRFa7bC6cNkG/8cd17e545e3d28dcc11a040d000cfa16/D-50.png",
+                                "name": "D-50"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7LbjnSD3wKQXWhoxSXv3vu/238defac906026c3763e93041e3d96f9/r6s-operators-list-thorn.png",
+                    "name": "Thorn",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5WMIsPUWTXprZnAwctPsTt/f1c652b681e7e9ba6ba66bcd29e12a76/uzk50gi.png",
+                                "name": "UZK50Gi",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2rkU6g4Rlg0e0U4rczWGTV/a51589a54c43f476d8eb984c0ea881e9/M870.png",
+                                "name": "M870",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/189UukZ6fVnvQR6LJtLYry/6eec29603d5b7b0ca8cab6ac0ef083ac/1911_TACOPS.png",
+                                "name": "1911 TACOPS"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3wUuefwPjU705mZkTdJ9UH/8ccb11884cfa34c176ac5500af139177/C75_Auto.png",
+                                "name": "C75 Auto"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3gadEIZqtSfsHstfPMe3bz/424c7e4c21276e99f41a8c75478aa5e5/r6s-operators-list-thunderbird.png",
+                    "name": "Thunderbird",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/CyofBgipHq4RTafvPFWd4/bc3d0ecc871b70e57735855f852efacf/SPAS-15.png",
+                                "name": "SPAS-15",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/29LjYuJ4s6yA8k9Uv2u28C/89ec812559e7d74b7c269279f4c46d92/Spear_.308.png",
+                                "name": "Spear .308",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4mdftEOh5Vu9KhhpgKLKrT/abedcc75868774018295ec2a08a7b3de/Bearing_9.png",
+                                "name": "Bearing 9"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2fRVszR5yGDHbV0AL8muso/0838dac90b66aa810daa49d36382fb64/Q-929.png",
+                                "name": "Q-929"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4yfuWCW8O4ja2VqR9tXqaE/c8dd123a6405959cf4f091c3854c9d96/r6s-operators-list-aruni.png",
+                    "name": "Aruni",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7K86OBjL3zmYWt0ZvUcCLj/16a947334e39f27da177d787773593e4/r6-operator-weapon-smg-p10roni.png",
+                                "name": "P10 RONI",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6KIMqp5dA95z1RI3PrG9jv/eb939638169811a3fa858a44e6e5d97e/Mk_14_EBR.png",
+                                "name": "Mk 14 EBR",
+                                "type": "Marksman_Rifle"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/dl28J1HsE7mzhj66pmd5D/b8d8fc48d2dde13154047de94abbd8ca/PRB92.png",
+                                "name": "PRB92"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1yoVAGw5rEQ8zPPHoQSDJb/b16a570fadb3342416c5c44847cc651a/r6s-operator-list-melusi.png",
+                    "name": "Melusi",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/60YbOvSBQt6ZUlu8YDXoZm/51ef3857b2986de700262432e8433714/MP5.png",
+                                "name": "MP5",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1TLWSu0xHJlAsfEfafeC9X/f9647e70a18962bf1627095c8b46832e/Super_90.png",
+                                "name": "Super 90",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5G4DroaSdqHzJWCe7qqbHZ/5dd2e03f853182c78a1e7fcbc642f0cf/ITA12S.png",
+                                "name": "ITA12S"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2LNSsp7B7wUnnPUweir7Jm/9f66d53be7a63a17a55253a0bea6eec1/RG15.png",
+                                "name": "RG15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3JBOp3MXgGeuEwyoYrkuMi/b7aa3c4a3fa6f165135954aa30252838/r6s-operator-list-oryx.png",
+                    "name": "Oryx",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Hp6Fbss6uI59OT4nZNB6e/a4d09954803cb2580353cfa03e8c778b/SPAS-12.png",
+                                "name": "SPAS-12",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1Ne8bvX8BdCALevWKMllQN/4baa3e79d323de134dd182e0272b9c3b/T-5_SMG.png",
+                                "name": "T-5 SMG",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/N8FLbo4fsNyBe8msKgRhT/8f403dc0b58087bcafab786dd95ba33f/Bailiff_410.png",
+                                "name": "Bailiff 410"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7FxemzWRtlpAhK9MyKp1Gp/817cc25b6b7c3575dc1ba53a6a8170a9/USP40.png",
+                                "name": "USP40"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2ZSUcKWczIo1w2WwzNan5B/98938e59a958117b46901c57fce98ae7/r6-operators-list-wamai_358318.png",
+                    "name": "Wamai",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1eO39zRe8XxJXH1KZiIWhM/02049ced0fbfa630833e8b0d3c03de07/AUG_A2.png",
+                                "name": "AUG A2",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1pk8nOI7ybQjYOSI4fuzOm/fcd78df0f729be545e75c09aae85c360/MP5K.png",
+                                "name": "MP5K",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2mpM7rah7rwEW0bViIirUC/ed9caa4db58421519fa4db390b1aa164/P12.png",
+                                "name": "P12"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/15caVAsSCr8Rsb5Hid36uc/59632c4f90727931041ced62a620018b/Keratos_.357.png",
+                                "name": "Keratos .357"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1ylXIr2TxRcFMSKfRhXJXh/5202b0fdfbf43545e8c40a8232a438c3/r6-operators-list-goyo.png",
+                    "name": "Goyo",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7D1cDf13FqUhoLihzvuPln/068aa7e507155598449c58c0a49a90d6/Vector_.45_ACP.png",
+                                "name": "Vector .45 ACP",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2NDbY7BTBJ9R09LUilTlRf/3728337cd3ba14ed6ab9de0c22e879af/TCSG12.png",
+                                "name": "TCSG12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/76ja0RxqzHW9PpvWgpG7Sk/cb753b50b20fe67deaef54d8b2a46b54/P229.png",
+                                "name": "P229"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/72pEJEYxwPGoW221XvdmAJ/ea79dbd58064cbc99a1514e1b1641586/r6-operators-list-warden.png",
+                    "name": "Warden",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2zRHmgqENNiZqXQxC9Rsbj/e6542407c642f9b7c5a4546afb6db30a/M590A1.png",
+                                "name": "M590A1",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5HFewpAJ8npDDCKFnEadhL/d398bb477d6b56fe41bfdb5862ed31c0/MPX.png",
+                                "name": "MPX",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2l4qwB50zSFhFZVYRLNwqg/20df8114f69f96f2adc54779ccc5bbaa/P-10C.png",
+                                "name": "P-10C"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/EwJgB7KdgOb6dDm7ro33u/b73f0890f992c1a365210f08efcc6db5/SMG-12.png",
+                                "name": "SMG-12"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5NwXzotdPIQuvWugaam4JA/eaf8febf1432c5f2f015318c83890d93/r6-operators-list-mozzie_343537.png",
+                    "name": "Mozzie",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4P9dpUph5w3MSsLNnW6be/04baba24990fcb75a9c0bcfd01b7d190/Commando_9.png",
+                                "name": "Commando 9",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7K86OBjL3zmYWt0ZvUcCLj/16a947334e39f27da177d787773593e4/r6-operator-weapon-smg-p10roni.png",
+                                "name": "P10 RONI",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Tgsdyz3XEqmgUYi9aZZgb/6755f4da7af7a7179ffab92acf8d477e/SDP_9mm.png",
+                                "name": "SDP 9mm"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/9ATWPlasUTzxyJMNlV9SM/16dd669d06990b12088660ffc77bd6b3/r6-operators-list-kaid.png",
+                    "name": "Kaid",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3W9XJdMOgpHSw55HfwRSAv/cf8f220678d503e6c3e535c00b2e636a/AUG_A3.png",
+                                "name": "AUG A3",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2NDbY7BTBJ9R09LUilTlRf/3728337cd3ba14ed6ab9de0c22e879af/TCSG12.png",
+                                "name": "TCSG12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6W3Jz0YcQzbZ6BOPr7VVel/4c67f342964132a652f7d5821e887050/.44_Mag_Semi-Auto.png",
+                                "name": ".44 MAG SEMI-AUTO"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1zc7UtdBfCZakwbiYqBvSz/1fd3f1584de38ca7c9315d498f094276/LFP586.png",
+                                "name": "LFP586"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3tTgRbA9GdeLTmI1mPObsp/5b490d1e9021c37ffa59f3e6bc6f8c7e/r6-operators-list-clash.png",
+                    "name": "Clash",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5mmGgrYdJJHw2moBIEW9An/6cc16a9925ad25d0455883caba382163/CCE_Shield.avif",
+                                "name": "CCE Shield",
+                                "type": "SHIELD"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2l4qwB50zSFhFZVYRLNwqg/20df8114f69f96f2adc54779ccc5bbaa/P-10C.png",
+                                "name": "P-10C"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5EtwSgylXckBNg4n6gDR9J/bc6fc6c5c12ae11da59aee95828ebd76/SPSMG9.png",
+                                "name": "SPSMG9"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Dq8LDmIxAveRqXM17orUW/8169927dba6976cee92cc53c7b0960aa/r6-operator-weapon-sa-supershorty.png",
+                                "name": "Super Shorty"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6QNXf9qRkqzOdsprj2SWgI/0c4cc3b9423cada4fed0ba5ae2c9c722/r6-operators-list-maestro.png",
+                    "name": "Maestro",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/39yB6TFl9ph6Rb4bDV4lqK/7f9b3abf8dff19bacc026a7212849ca4/ALDA_5.56.png",
+                                "name": "ALDA 5.56",
+                                "type": "Light_Machine_Gun"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/13z63kT1NLzn1U99o7WC4T/8655d3200f24b87246c36f2622603457/ACS12_PB.png",
+                                "name": "ACS12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/15caVAsSCr8Rsb5Hid36uc/59632c4f90727931041ced62a620018b/Keratos_.357.png",
+                                "name": "Keratos .357"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/N8FLbo4fsNyBe8msKgRhT/8f403dc0b58087bcafab786dd95ba33f/Bailiff_410.png",
+                                "name": "Bailiff 410"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/11nzEgSwdAXLow3kPl0wom/3fdf2b0aa1c1af7ef785d28cf5d80114/r6-operators-list-alibi.png",
+                    "name": "Alibi",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4qRh1frGkQZxNyeKA4D6n1/20f89cd1d9953f06207b7340ea77fb17/Mx4_Storm.png",
+                                "name": "Mx4 Storm",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/13z63kT1NLzn1U99o7WC4T/8655d3200f24b87246c36f2622603457/ACS12_PB.png",
+                                "name": "ACS12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/15caVAsSCr8Rsb5Hid36uc/59632c4f90727931041ced62a620018b/Keratos_.357.png",
+                                "name": "Keratos .357"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/N8FLbo4fsNyBe8msKgRhT/8f403dc0b58087bcafab786dd95ba33f/Bailiff_410.png",
+                                "name": "Bailiff 410"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/48ebOPwZWlyktdhawglqlI/819d0565c7f545e97526e4dda0a2f129/r6-operators-list-vigil.png",
+                    "name": "Vigil",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5mUa2p8WXbiyD71qUI8sGk/ed753b6f0ae30ab5737486dfcf32ee9f/K1A.png",
+                                "name": "K1A",
+                                "type": "ASSAULT_RIFLE"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2ZjVndetsX8WEn5ZfyUQa0/e3a781be7eab22876d25f748e8fd0f5a/BOSG.12.2.png",
+                                "name": "BOSG.12.2",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3wUuefwPjU705mZkTdJ9UH/8ccb11884cfa34c176ac5500af139177/C75_Auto.png",
+                                "name": "C75 Auto"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/EwJgB7KdgOb6dDm7ro33u/b73f0890f992c1a365210f08efcc6db5/SMG-12.png",
+                                "name": "SMG-12"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6110n4X8KghHzBtPrksrKD/28e78ce725b3d1cd35c6f0967c0524b8/r6-operators-list-ela.png",
+                    "name": "Ela",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6OdwaLWxcnFvhlVwWbP2Du/4f7e94bdb6d34d5c0aa7b7b147b4092e/Scorpion_EVO_3_A1.png",
+                                "name": "Scorpion EVO 3 A1",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4TDWnhbgvLkc6HBWDJp2ST/f50cbd83d6d295ab59f17f7e21d713bc/FO-12.png",
+                                "name": "FO-12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2LNSsp7B7wUnnPUweir7Jm/9f66d53be7a63a17a55253a0bea6eec1/RG15.png",
+                                "name": "RG15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3woPDn0yMuXfkr2RYoymFj/964dfe9277e5299b0125c33b39e165d1/r6-operators-list-lesion.png",
+                    "name": "Lesion",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1GTua079Xbtkpjhx96sRsW/079ed1a71a0d12b5e48e1b0d40b87110/SIX12_SD.png",
+                                "name": "SIX12 SD",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1Ne8bvX8BdCALevWKMllQN/4baa3e79d323de134dd182e0272b9c3b/T-5_SMG.png",
+                                "name": "T-5 SMG",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2fRVszR5yGDHbV0AL8muso/0838dac90b66aa810daa49d36382fb64/Q-929.png",
+                                "name": "Q-929"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Dq8LDmIxAveRqXM17orUW/8169927dba6976cee92cc53c7b0960aa/r6-operator-weapon-sa-supershorty.png",
+                                "name": "Super Shorty"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2Q9Y4UXzkQfECOw5fX3QrI/bfd6532c840cb06a22e0196f2acfc462/r6-operators-list-mira.png",
+                    "name": "Mira",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7D1cDf13FqUhoLihzvuPln/068aa7e507155598449c58c0a49a90d6/Vector_.45_ACP.png",
+                                "name": "Vector .45 ACP",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4Y6ziRzm9RiPii83fm8BV1/1f472744d2c2dec8d9206f4d8733d92c/ITA12L.png",
+                                "name": "ITA12L",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7FxemzWRtlpAhK9MyKp1Gp/817cc25b6b7c3575dc1ba53a6a8170a9/USP40.png",
+                                "name": "USP40"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5G4DroaSdqHzJWCe7qqbHZ/5dd2e03f853182c78a1e7fcbc642f0cf/ITA12S.png",
+                                "name": "ITA12S"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7MdVMpafww11MfSVMEzyTK/4d4c5d92585c7cf11a28cbf9456e3d9e/r6-operators-list-echo.png",
+                    "name": "Echo",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5HaMldwFltBwiiyDDfkPpD/6de3aa9aaa17458e7f6186ba59b8deff/MP5SD.png",
+                                "name": "MP5SD",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2tpjCRFLcc3hogjJGbKDsi/5ad0ab63b7245022aca5c1c1fb42d473/SuperNova.png",
+                                "name": "SuperNova",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4mdftEOh5Vu9KhhpgKLKrT/abedcc75868774018295ec2a08a7b3de/Bearing_9.png",
+                                "name": "Bearing 9"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/76ja0RxqzHW9PpvWgpG7Sk/cb753b50b20fe67deaef54d8b2a46b54/P229.png",
+                                "name": "P229"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4RZ2Vwk7HozKMCtS5gFMp7/e1b930e3c80590a316939d9df0d88660/r6-operators-list-caveira.png",
+                    "name": "Caveira",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4FxqA5pa8JY9QQ7FEcjwPw/ffc779fcde5b970e7b95db6653637dab/M12.png",
+                                "name": "M12",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/CyofBgipHq4RTafvPFWd4/bc3d0ecc871b70e57735855f852efacf/SPAS-15.png",
+                                "name": "SPAS-15",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5cSDFUWb8P1BAQUgnTozeM/fd3a3348f42c95d6afa9f105ae23f2e5/Luison.png",
+                                "name": "Luison"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7xN3HJXPLVEmWA9PDnQzTV/613b19a897503161f2cf6fe7bbe3408e/r6-operators-list-valkyrie.png",
+                    "name": "Valkyrie",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5HFewpAJ8npDDCKFnEadhL/d398bb477d6b56fe41bfdb5862ed31c0/MPX.png",
+                                "name": "MPX",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Hp6Fbss6uI59OT4nZNB6e/a4d09954803cb2580353cfa03e8c778b/SPAS-12.png",
+                                "name": "SPAS-12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6mMQRDsrComRFa7bC6cNkG/8cd17e545e3d28dcc11a040d000cfa16/D-50.png",
+                                "name": "D-50"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/33qvDwvWy7y9VGw9k1RYWi/73c4b6e46575b2b649058e2e626c223a/r6-operators-list-frost.png",
+                    "name": "Frost",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1TLWSu0xHJlAsfEfafeC9X/f9647e70a18962bf1627095c8b46832e/Super_90.png",
+                                "name": "Super 90",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/60sbThKtOpNOwKu3OP0oGV/672fd9263f7786402a0d855273473a6f/9mm_C1.png",
+                                "name": "9mm C1",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3tWoNeF3jQYs3w4EOydQYs/434409c96693df1fd3e969d778e70795/Mk1_9mm_BI.png",
+                                "name": "Mk1 9mm"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5G4DroaSdqHzJWCe7qqbHZ/5dd2e03f853182c78a1e7fcbc642f0cf/ITA12S.png",
+                                "name": "ITA12S"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4BWoDVmdDsgrI071YJwqyF/4bcf11da1e22bda96d130a0f0d4d5b48/r6-operators-list-mute.png",
+                    "name": "Mute",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1pk8nOI7ybQjYOSI4fuzOm/fcd78df0f729be545e75c09aae85c360/MP5K.png",
+                                "name": "MP5K",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2zRHmgqENNiZqXQxC9Rsbj/e6542407c642f9b7c5a4546afb6db30a/M590A1.png",
+                                "name": "M590A1",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/RTQvPQcywlRwUS1FjIKCX/6fc72fee2191c2e723276bc10ae4114e/P226_Mk_25.png",
+                                "name": "P226 Mk 25"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3WExw7Kepz9uAiWAbWW457/875fc631a3cf9fcc2849d9db2989cbcd/SMG-11.png",
+                                "name": "SMG-11"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2Tm9rzdq6j9cpdW9qjnnrw/10d42d14755002e1056d1a940841482c/r6-operators-list-smoke.png",
+                    "name": "Smoke",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2zRHmgqENNiZqXQxC9Rsbj/e6542407c642f9b7c5a4546afb6db30a/M590A1.png",
+                                "name": "M590A1",
+                                "type": "SHOTGUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/0oneJNsBR06QjuowxwtHG/bd3b391c6eec2bd615f2ed83197a13ac/FMG-9.png",
+                                "name": "FMG-9",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/RTQvPQcywlRwUS1FjIKCX/6fc72fee2191c2e723276bc10ae4114e/P226_Mk_25.png",
+                                "name": "P226 Mk 25"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3WExw7Kepz9uAiWAbWW457/875fc631a3cf9fcc2849d9db2989cbcd/SMG-11.png",
+                                "name": "SMG-11"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1ETv9XcrmgbAdYWDJ2ZIh0/3f5ad7d030ee411c041c524880176603/r6-operators-list-castle.png",
+                    "name": "Castle",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6X2EZPq2s8UKrP67uxz5FI/f0df4c57d5890c79311e4eb62d4470e7/UMP45.png",
+                                "name": "UMP45",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2pUiVbwNnQnDTesmWXktqW/f27c1fab9a354bb89cbe309a688f5e02/M1014.png",
+                                "name": "M1014",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/tkYcSAJSe5yGkeUhzZqBO/e81feb86df4a7eb6951052bec26b6ed7/5.7_USG.png",
+                                "name": "5.7 USG"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Dq8LDmIxAveRqXM17orUW/8169927dba6976cee92cc53c7b0960aa/r6-operator-weapon-sa-supershorty.png",
+                                "name": "Super Shorty"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3u5cecgWYl3WuJK50mKEGd/a4a0eb15c710edfc0d29e98c2ee7ea33/M45_MEUSOC.png",
+                                "name": "M45 MEUSOC"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1YQb5phSD3uYbWrqhCBJRU/06e5f689777224bf8ca6c7c5cad9db9d/r6-operators-list-pulse.png",
+                    "name": "Pulse",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6X2EZPq2s8UKrP67uxz5FI/f0df4c57d5890c79311e4eb62d4470e7/UMP45.png",
+                                "name": "UMP45",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2pUiVbwNnQnDTesmWXktqW/f27c1fab9a354bb89cbe309a688f5e02/M1014.png",
+                                "name": "M1014",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/tkYcSAJSe5yGkeUhzZqBO/e81feb86df4a7eb6951052bec26b6ed7/5.7_USG.png",
+                                "name": "5.7 USG"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3u5cecgWYl3WuJK50mKEGd/a4a0eb15c710edfc0d29e98c2ee7ea33/M45_MEUSOC.png",
+                                "name": "M45 MEUSOC"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2sCxLIpS9I19PKRz44Phj9/4f96411a556cc41597b8b3e83260cd21/r6-operators-list-doc.png",
+                    "name": "Doc",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/60YbOvSBQt6ZUlu8YDXoZm/51ef3857b2986de700262432e8433714/MP5.png",
+                                "name": "MP5",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4nGrNspOvII2oS3lEMkg5x/2398a493c298bc654f97c58767aa40f3/P90.png",
+                                "name": "P90",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5JoL3b36Fsztt9Q2XYmrbJ/dacec96948d3f8fe92914a69b9aac593/SG-CQB.png",
+                                "name": "SG-CQB",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6Fd1cl17KA0CtgodEiiY6v/d0f145ea72f2aacbd04260ba7d8f1c74/P9.png",
+                                "name": "P9"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1zc7UtdBfCZakwbiYqBvSz/1fd3f1584de38ca7c9315d498f094276/LFP586.png",
+                                "name": "LFP586"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/N8FLbo4fsNyBe8msKgRhT/8f403dc0b58087bcafab786dd95ba33f/Bailiff_410.png",
+                                "name": "Bailiff 410"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1aFTx0BJYAKAnS1vyNA7w6/b4fc6421d382c677aa0197f84131eaa5/r6-operators-list-rook.png",
+                    "name": "Rook",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/60YbOvSBQt6ZUlu8YDXoZm/51ef3857b2986de700262432e8433714/MP5.png",
+                                "name": "MP5",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4nGrNspOvII2oS3lEMkg5x/2398a493c298bc654f97c58767aa40f3/P90.png",
+                                "name": "P90",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5JoL3b36Fsztt9Q2XYmrbJ/dacec96948d3f8fe92914a69b9aac593/SG-CQB.png",
+                                "name": "SG-CQB",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6Fd1cl17KA0CtgodEiiY6v/d0f145ea72f2aacbd04260ba7d8f1c74/P9.png",
+                                "name": "P9"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1zc7UtdBfCZakwbiYqBvSz/1fd3f1584de38ca7c9315d498f094276/LFP586.png",
+                                "name": "LFP586"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4kMW2lcoewGifRWbvQVjKy/8f974b5d26db81dc823ea602e31d6273/r6-operators-list-jager.png",
+                    "name": "Jager",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2rkU6g4Rlg0e0U4rczWGTV/a51589a54c43f476d8eb984c0ea881e9/M870.png",
+                                "name": "M870",
+                                "type": "SHOTGUN"
+                                
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2I86r2a2QD8EHTZVZnxcxy/2913450ba952a16c29fac1f5ce58ba1a/416-C_Carbine.png",
+                                "name": "416-C Carbine",
+                                "type": "ASSAULT_RIFLE"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2mpM7rah7rwEW0bViIirUC/ed9caa4db58421519fa4db390b1aa164/P12.png",
+                                "name": "P12"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2cFHG0Xk93uoGrm5nTjDPE/2211339df9b36c1b0d9873e480d03fad/r6-operators-list-bandit.png",
+                    "name": "Bandit",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3a4dgTWGdiJqALhtRp4pKy/f2568d3de3cfe7e4b53179e8653cd2a2/MP7.png",
+                                "name": "MP7",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2rkU6g4Rlg0e0U4rczWGTV/a51589a54c43f476d8eb984c0ea881e9/M870.png",
+                                "name": "M870",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2mpM7rah7rwEW0bViIirUC/ed9caa4db58421519fa4db390b1aa164/P12.png",
+                                "name": "P12"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5P9kGyOrnsu7lRyr9xC71t/53981da03fa36adf99adf61bc098bd4a/r6s-operators-list-tachanka.png",
+                    "name": "Tachanka",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7LoT7yAe0LK7bDOeq6MZZM/33995bc704667674af1b73fe962d4c7c/Primary_gun_DP27.png",
+                                "name": "DP27",
+                                "type": "Light_Machine_Gun"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/42gH96xTTYaTZsfXI3c0wL/a7edbf11af97091ee884b68e59fe6a4f/9x19VSN.png",
+                                "name": "9x19VSN",
+                                "type": "SUBMACHINE_GUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3y4LIwwm8YNQHAv8oOkWCK/a2375901cee34e68fa39c976d85de8aa/PMM.png",
+                                "name": "PMM"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5s5Q33j3MNcXf9lwfxfd7m/4eb3a6af1d431481b6ddcec44fbc7602/GSh-18.png",
+                                "name": "GSh-18"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4mdftEOh5Vu9KhhpgKLKrT/abedcc75868774018295ec2a08a7b3de/Bearing_9.png",
+                                "name": "Bearing 9"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7MofnDHeL1uwsenBVjxplQ/1e5af8fe9cf6f36516c7f6e5d56fcac0/r6-operators-list-kapkan.png",
+                    "name": "Kapkan",
+                    "gun": {
+                        "Primary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/42gH96xTTYaTZsfXI3c0wL/a7edbf11af97091ee884b68e59fe6a4f/9x19VSN.png",
+                                "name": "9x19VSN",
+                                "type": "SUBMACHINE_GUN"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2Q6mL4CbifmIgifV2yV3Hi/2bb2b323f055b03a2c1ba516c262c24e/SASG-12.png",
+                                "name": "SASG-12",
+                                "type": "SHOTGUN"
+                            }
+                        ],
+                        "Secondary": [
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3y4LIwwm8YNQHAv8oOkWCK/a2375901cee34e68fa39c976d85de8aa/PMM.png",
+                                "name": "PMM"
+                            },
+                            {
+                                "img": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5s5Q33j3MNcXf9lwfxfd7m/4eb3a6af1d431481b6ddcec44fbc7602/GSh-18.png",
+                                "name": "GSh-18"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "ATTACHMENT": {
+            "scope":{
+                "IronSight":[
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/IronSight.png",
+                        "name":"IronSight"
+                    }
+                ],
+                "RedDot":[
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Reddot/ReddotA.png",
+                        "name":"Reddot A"
+                    },
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Reddot/ReddotB.png",
+                        "name":"Reddot B"
+                    },
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Reddot/ReddotC.png",
+                        "name":"Reddot C"
+                    }
+                ],
+                "Holo":[
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Holo/HoloA.png",
+                        "name":"Holo A"
+                    },
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Holo/HoloB.png",
+                        "name":"Holo B"
+                    },
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Holo/HoloC.png",
+                        "name":"Holo C"
+                    },
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Holo/HoloD.png",
+                        "name":"Holo D"
+                    }
+                ],
+                "Reflex":[
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Reflex/ReflexA.png",
+                        "name":"Reflex A"
+                    },
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Reflex/ReflexB.png",
+                        "name":"Reflex B"
+                    },
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Reflex/ReflexC.png",
+                        "name":"Reflex C"
+                    }
+                ],
+                "Magnified":[
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Megni/MagA.png",
+                        "name":"Magnified A"
+                    },
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Megni/MagB.png",
+                        "name":"Magnified B"
+                    },
+                    {
+                        "img":"../src/assets/img/RainbowSixPage/Sight/Megni/MagC.png",
+                        "name":"Magnified C"
+                    }
+                ]
+            },
+            "barrel": [
+                {
+                    "img": "#",
+                    "name": "None"
+                },
+                {
+                    "img": "../src/assets/img/RainbowSixPage/Barrels/Compensator.png",
+                    "name": "Compensator"
+                },
+                {
+                    "img": "../src/assets/img/RainbowSixPage/Barrels/Extended.png",
+                    "name": "Extended"
+                },
+                {
+                    "img": "../src/assets/img/RainbowSixPage/Barrels/Flash_Hider.png",
+                    "name": "Flash_Hider"
+                },
+                {
+                    "img": "../src/assets/img/RainbowSixPage/Barrels/Muzzle_Brake.png",
+                    "name": "Muzzle_Brake"
+                },
+                {
+                    "img": "../src/assets/img/RainbowSixPage/Barrels/Suppressor.png",
+                    "name": "Suppressor"
+                }
+            ],
+            "grip": [
+                {
+                    "img": "../src/assets/img/RainbowSixPage/Grips/HoriGrip.png",
+                    "name": "HoriGrip"
+                },
+                {
+                    "img": "../src/assets/img/RainbowSixPage/Grips/AngleGrip.png",
+                    "name": "AngleGrip"
+                },
+                {
+                    "img": "../src/assets/img/RainbowSixPage/Grips/VirtiGrip.png",
+                    "name": "VirtiGrip"
+                }
+            ],
+            "leser": [
+                {
+                    "img": "../src/assets/img/RainbowSixPage/Laser/Laser.png",
+                    "name": "Laser"
+                },
+                {
+                    "img": "#",
+                    "name": "None"
+                }
+            ]
+        }
+    }
+}

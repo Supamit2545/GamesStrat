@@ -1,0 +1,74 @@
+.home-body{
+    position: relative;
+}
+.home-body-container{
+    margin: auto;
+    margin-top: 2%;
+    width: 95%;
+    height: 75vh;
+    background: rgba(0, 0, 0, 0.671);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.home-left-text{
+    font-size: 100px;
+    cursor: default;
+}
+.home-left-text1{
+    color: white;
+    font-weight: bolder;
+    
+}
+.home-left-text2{
+    font-size: 80px;
+    color: aqua;
+    font-weight: bolder;
+}
+.home-left-text3{
+    font-size: 40px;
+    color: aqua;
+    font-weight: bolder;
+    color: white;
+}
+.home-left-text{
+    padding: 16px;
+}
+.left-btn-btn{
+    padding: 10px 70px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background: rgb(85,1,88);
+    background: linear-gradient(90deg,  
+        rgba(85,1,88,1) 0%,
+        rgba(130,5,70,1) 68%,
+        rgba(250,52,109,1) 100%
+    );
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: all 0.5s ease-in-out;
+}
+.left-btn-btn:hover{
+    background: rgb(223, 6, 230);
+    background: linear-gradient(90deg,  
+    rgba(250,52,109,1) 0%
+    rgba(130,5,70,1) 68%,
+    rgba(85,1,88,1) 100%,
+    );
+}
+@keyframes slicecolor{
+    
+}
+
+.right-back{
+    width: 200px;
+    height: 40vh;
+    background: rgb(16,23,40);
+    background: radial-gradient(
+        circle, 
+        rgba(16,23,40,1) 0%, 
+        rgba(245,11,180,1) 21%, 
+        rgba(5,30,244,1) 83%
+    );
+}

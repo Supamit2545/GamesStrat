@@ -1,0 +1,29 @@
+{
+    "Gamelist":[
+    {
+        "gamename": "Dota2",
+        "gameimg": "../src/assets/img/GameslistPage/Dota2Logo.jpg",
+        "gamelink": "/Dota2Pages"
+    },
+    {
+        "gamename": "RainbowSix",
+        "gameimg": "../src/assets/img/GameslistPage/R6Logo.png",
+        "gamelink": "/RainbowSixPage"
+    },
+    {
+        "gamename": "Eldenring",
+        "gameimg": "../src/assets/img/GameslistPage/EldenringLogo.png",
+        "gamelink": "/EldenringPage"
+    },
+    {
+        "gamename": "Fortnite",
+        "gameimg": "../src/assets/img/GameslistPage/FortniteLogo.png",
+        "gamelink": "#"
+    },
+    {
+        "gamename": "Minecraft",
+        "gameimg": "../src/assets/img/GameslistPage/MinecraftLogo.png",
+        "gamelink": "#"
+    }
+]
+}

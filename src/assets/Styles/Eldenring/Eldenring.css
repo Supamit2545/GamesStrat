@@ -1,0 +1,73 @@
+.ER-Container{
+    background-image: url('../../img/Eldenring/Background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    transition: all 1s ease;
+    padding-top: 10px;
+}
+.CenterBG{
+    position: absolute;
+    z-index: 0;
+    height: 500px;
+    top: 2%;
+    left: 42%; 
+}
+.ER-Body{
+    width: 95%;
+    height: 90%;
+    background: rgba(0, 0, 0, 1);
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: auto;
+    transition: all 1s ease;
+    position: relative;
+}
+.TextIntros{
+    width: 500px;
+    margin: 30% auto;
+    text-align: center;
+    z-index: 1;
+}
+.TextIntro{
+    color: gray;
+    font-weight: bold;
+    font-size: 40px;
+    transition: all 0.5s ease;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 100%;
+    padding-top: 2px;
+    position: relative;
+}
+.TextIntro:hover{
+   cursor: pointer;
+   color: white;
+}
+.TextIntro.active{
+    width: 500px;
+    border: 2px solid white;
+    margin: 30% auto;
+    text-align: center;
+}
+.TextIntroBG{
+    display: none;
+}
+.TextIntroBG.active{
+    display: block;
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    background: rgba(47,47,0,1);
+    border-radius: 2px;
+    background: radial-gradient(circle, rgb(99, 99, 0) 0%, rgba(0,0,0,1) 100%);
+    animation: Kapib 3s ease infinite;
+}
+@keyframes Kapib {
+    0%{
+        opacity: 0;
+    }50%{
+        opacity: 1;
+    }100%{
+        opacity: 0;
+    }
+}

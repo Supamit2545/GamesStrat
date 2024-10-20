@@ -1,0 +1,66 @@
+.RS-Container{
+    background-image: url('../../img/RainbowSixPage/Background.jpg');
+    width: 100%;
+    height: 100vh;
+}
+.RS-Contents{
+    background: rgba(128, 128, 128, 0.432);
+    width: 95%;
+    height: 85vh;
+    margin: auto;
+}
+.RS-Content{
+    display: none;
+}
+.RS-Content.active{
+    display: block;
+    padding: 16px;
+}
+.R6-CateBTN{
+    text-align: center;
+    padding-top: 10px;
+}
+.R6-btn{
+    transition: all 1s ease;
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #80808069;
+    position: relative;
+    overflow: hidden;
+}
+.R6-btn.active{
+    font-size: 30px;
+}
+.RSBTN-Underline{
+    width: 0%;
+    height: 0px;
+}
+.RSBTN-Underline.active{
+    position: absolute;
+    display: block;
+    background: skyblue;
+    width: 100%;
+    height: 8px;
+    bottom: 0px;
+    animation: underlineScale 1s ease forwards;
+}
+.RSBTN-Underline.cactive{
+    position: absolute;
+    display: block;
+    background: skyblue;
+    width: 100%;
+    height: 8px;
+    bottom: 0px;
+    box-shadow: 2px -6px 15px 7px skyblue;
+    animation: underlineScale 1s ease forwards;
+}
+@keyframes underlineScale {
+    from{
+        transform: scale(0);
+    }to{
+        transform: scale(1);
+    }
+}
