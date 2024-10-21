@@ -2,27 +2,27 @@
     "Gamelist":[
     {
         "gamename": "Dota2",
-        "gameimg": "../src/assets/img/GameslistPage/Dota2Logo.jpg",
+        "gameimg": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/GameslistPage/Dota2Logo.jpg?raw=true",
         "gamelink": "/Dota2Pages"
     },
     {
         "gamename": "RainbowSix",
-        "gameimg": "../src/assets/img/GameslistPage/R6Logo.png",
+        "gameimg": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/GameslistPage/R6Logo.png?raw=true",
         "gamelink": "/RainbowSixPage"
     },
     {
         "gamename": "Eldenring",
-        "gameimg": "../src/assets/img/GameslistPage/EldenringLogo.png",
+        "gameimg": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/GameslistPage/EldenringLogo.png?raw=true",
         "gamelink": "/EldenringPage"
     },
     {
         "gamename": "Fortnite",
-        "gameimg": "../src/assets/img/GameslistPage/FortniteLogo.png",
+        "gameimg": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/GameslistPage/FortniteLogo.png?raw=true",
         "gamelink": "#"
     },
     {
         "gamename": "Minecraft",
-        "gameimg": "../src/assets/img/GameslistPage/MinecraftLogo.png",
+        "gameimg": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/GameslistPage/MinecraftLogo.png?raw=true",
         "gamelink": "#"
     }
 ]
