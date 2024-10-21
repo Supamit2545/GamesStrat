@@ -2030,67 +2030,67 @@
             "scope":{
                 "IronSight":[
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/IronSight.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/IronSight.png?raw=true",
                         "name":"IronSight"
                     }
                 ],
                 "RedDot":[
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Reddot/ReddotA.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Reddot/ReddotA.png?raw=true",
                         "name":"Reddot A"
                     },
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Reddot/ReddotB.png",
+                        "img":".https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Reddot/ReddotB.png?raw=true",
                         "name":"Reddot B"
                     },
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Reddot/ReddotC.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Reddot/ReddotC.png?raw=true",
                         "name":"Reddot C"
                     }
                 ],
                 "Holo":[
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Holo/HoloA.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Holo/HoloA.png?raw=true",
                         "name":"Holo A"
                     },
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Holo/HoloB.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Holo/HoloB.png?raw=true",
                         "name":"Holo B"
                     },
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Holo/HoloC.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Holo/HoloC.png?raw=true",
                         "name":"Holo C"
                     },
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Holo/HoloD.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Holo/HoloD.png?raw=true",
                         "name":"Holo D"
                     }
                 ],
                 "Reflex":[
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Reflex/ReflexA.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Reflex/ReflexA.png?raw=true",
                         "name":"Reflex A"
                     },
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Reflex/ReflexB.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Reflex/ReflexB.png?raw=true",
                         "name":"Reflex B"
                     },
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Reflex/ReflexC.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Reflex/ReflexC.png?raw=true",
                         "name":"Reflex C"
                     }
                 ],
                 "Magnified":[
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Megni/MagA.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Megni/MagA.png?raw=true",
                         "name":"Magnified A"
                     },
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Megni/MagB.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Megni/MagB.png?raw=true",
                         "name":"Magnified B"
                     },
                     {
-                        "img":"../src/assets/img/RainbowSixPage/Sight/Megni/MagC.png",
+                        "img":"https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Sight/Megni/MagC.png?raw=true",
                         "name":"Magnified C"
                     }
                 ]
@@ -2101,43 +2101,43 @@
                     "name": "None"
                 },
                 {
-                    "img": "../src/assets/img/RainbowSixPage/Barrels/Compensator.png",
+                    "img": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Barrels/Compensator.png?raw=true",
                     "name": "Compensator"
                 },
                 {
-                    "img": "../src/assets/img/RainbowSixPage/Barrels/Extended.png",
+                    "img": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Barrels/Extended.png?raw=true",
                     "name": "Extended"
                 },
                 {
-                    "img": "../src/assets/img/RainbowSixPage/Barrels/Flash_Hider.png",
+                    "img": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Barrels/Flash_Hider.png?raw=true",
                     "name": "Flash_Hider"
                 },
                 {
-                    "img": "../src/assets/img/RainbowSixPage/Barrels/Muzzle_Brake.png",
+                    "img": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Barrels/Muzzle_Brake.png?raw=true",
                     "name": "Muzzle_Brake"
                 },
                 {
-                    "img": "../src/assets/img/RainbowSixPage/Barrels/Suppressor.png",
+                    "img": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Barrels/Suppressor.png?raw=true",
                     "name": "Suppressor"
                 }
             ],
             "grip": [
                 {
-                    "img": "../src/assets/img/RainbowSixPage/Grips/HoriGrip.png",
+                    "img": ".https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Grips/HoriGrip.png?raw=true",
                     "name": "HoriGrip"
                 },
                 {
-                    "img": "../src/assets/img/RainbowSixPage/Grips/AngleGrip.png",
+                    "img": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Grips/AngleGrip.png?raw=true",
                     "name": "AngleGrip"
                 },
                 {
-                    "img": "../src/assets/img/RainbowSixPage/Grips/VirtiGrip.png",
+                    "img": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Grips/VirtiGrip.png?raw=true",
                     "name": "VirtiGrip"
                 }
             ],
             "leser": [
                 {
-                    "img": "../src/assets/img/RainbowSixPage/Laser/Laser.png",
+                    "img": "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/img/RainbowSixPage/Laser/Laser.png?raw=true",
                     "name": "Laser"
                 },
                 {
