@@ -12,7 +12,7 @@ import DotaRandom from './Dota2.json';
 
 const Dota2Pages = () => {
   const [TeamSelection, setTeamSelection] = useState("");
-  const [RoleSelection, setRoleSelection] = useState("");
+  const [RoleSelection, setRoleSelection] = useState("All");
   const [isLoading , setLoading] = useState(false);
   const [ChallengeLoading , setChallengeLoading] = useState(false);
 
@@ -25,19 +25,19 @@ const Dota2Pages = () => {
 
     try{
       setLoading(true)
-      randomStrat.classList.add('fade')
-      DetailStrat.classList.add('fade')
+      randomStrat.classList.add('fade');
+      DetailStrat.classList.add('fade');
       if(TeamSelection == 'Team'){
-        randomStrat.innerHTML = [DotaRandom.Strat.Team[x].content]
-        DetailStrat.innerHTML = [DotaRandom.Strat.Team[x].details]
+        randomStrat.innerHTML = [DotaRandom.Strat.Team[x].content];
+        DetailStrat.innerHTML = [DotaRandom.Strat.Team[x].details];
       }
       if(TeamSelection == 'Duo'){
-        randomStrat.innerHTML = [DotaRandom.Strat.Duo[y].content]
-        DetailStrat.innerHTML = [DotaRandom.Strat.Duo[y].details]
+        randomStrat.innerHTML = [DotaRandom.Strat.Duo[y].content];
+        DetailStrat.innerHTML = [DotaRandom.Strat.Duo[y].details];
       }
       if(TeamSelection == 'Solo'){
-        randomStrat.innerHTML = [DotaRandom.Strat.Solo[z].content]
-        DetailStrat.innerHTML = [DotaRandom.Strat.Solo[z].details]
+        randomStrat.innerHTML = [DotaRandom.Strat.Solo[z].content];
+        DetailStrat.innerHTML = [DotaRandom.Strat.Solo[z].details];
       }
     }catch{
       console.log("Error Please Try Again Later");
@@ -53,21 +53,42 @@ const Dota2Pages = () => {
   const RandomChallenge = async () =>{
     const ChallengeBtn = document.getElementById('Challenge-random-btn');
     const ChallengeShowText = document.getElementById('Challenge-Random');
-    let x = Math.floor(Math.random() * 4)
-    setChallengeLoading(true)
+    let Allrandom = Math.floor(Math.random() * DotaRandom.Challenge.ALL.length);
+    let HardsupRandom = Math.floor(Math.random() * DotaRandom.Challenge.HardSupport.length);
+    let SoftsupRandom = Math.floor(Math.random() * DotaRandom.Challenge.SoftSupport.length);
+    let OfflaneRandom = Math.floor(Math.random() * DotaRandom.Challenge.Offlane.length);
+    let MidlaneRandom = Math.floor(Math.random() * DotaRandom.Challenge.Mid.length);
+    let CarryRandom = Math.floor(Math.random() * DotaRandom.Challenge.Carry.length);
+    setChallengeLoading(true);
     
     
-    ChallengeShowText.classList.add('fade')
-    ChallengeShowText.classList.add('hidden')
+    ChallengeShowText.classList.add('fade');
+    ChallengeShowText.classList.add('hidden');
     setTimeout(function(){
-      setChallengeLoading(false)
+      setChallengeLoading(false);
     },990)
     setTimeout(function(){
-      ChallengeShowText.innerHTML = [DotaRandom.Challenge[x].ChallengeName]
-      ChallengeShowText.classList.remove('fade')
-      ChallengeShowText.classList.remove('hidden')
-    },999)
-
+      if(RoleSelection == 'All'){
+        ChallengeShowText.innerHTML = [DotaRandom.Challenge.ALL[Allrandom].ChallengeName];
+      }
+      if(RoleSelection == 'Hard_Support'){
+        ChallengeShowText.innerHTML = [DotaRandom.Challenge.HardSupport[HardsupRandom].ChallengeName];
+      }
+      if(RoleSelection == 'Soft_Support'){
+        ChallengeShowText.innerHTML = [DotaRandom.Challenge.SoftSupport[SoftsupRandom].ChallengeName];
+      }
+      if(RoleSelection == 'OffLane'){
+        ChallengeShowText.innerHTML = [DotaRandom.Challenge.Offlane[OfflaneRandom].ChallengeName];
+      }
+      if(RoleSelection == 'MidLane'){
+        ChallengeShowText.innerHTML = [DotaRandom.Challenge.Mid[MidlaneRandom].ChallengeName];
+      }
+      if(RoleSelection == 'Carry'){
+        ChallengeShowText.innerHTML = [DotaRandom.Challenge.Carry[CarryRandom].ChallengeName];
+      }
+      ChallengeShowText.classList.remove('fade');
+      ChallengeShowText.classList.remove('hidden');
+    },999);
   }
 
   return (
@@ -128,7 +149,8 @@ const Dota2Pages = () => {
                 <div className=''>
                   <FormControl className=''>
                     <RadioGroup row aria-labelledby="demo-row-radio-buttons-group-label" name="row-radio-buttons-group">
-                      <div className='Dota2-Strat-TeamSelector space-x-5'>
+                      <div className='Dota2-Strat-TeamSelector '>
+                        <FormControlLabel className={`Dota2-Strat-TeamRaio ${RoleSelection == 'All' ? 'selected' : ''}`} id='Dota2-Team-Radio' value="All" checked={RoleSelection == 'All'} control={<Radio />} label="All" onChange={(e) => { setRoleSelection(e.target.value) }} />
                         <FormControlLabel className={`Dota2-Strat-TeamRaio ${RoleSelection == 'Hard_Support' ? 'selected' : ''}`} id='Dota2-Team-Radio' value="Hard_Support" control={<Radio />} label="Hard_Support" onChange={(e) => { setRoleSelection(e.target.value) }} />
                         <FormControlLabel className={`Dota2-Strat-TeamRaio ${RoleSelection == 'Soft_Support' ? 'selected' : ''}`} id='Dota2-Team-Radio' value="Soft_Support" control={<Radio />} label="Soft_Support" onChange={(e) => { setRoleSelection(e.target.value) }} />
                         <FormControlLabel className={`Dota2-Strat-TeamRaio ${RoleSelection == 'OffLane' ? 'selected' : ''}`} id='Dota2-Team-Radio' value="OffLane" control={<Radio />} label="OffLane" onChange={(e) => { setRoleSelection(e.target.value) }} />

@@ -55,22 +55,54 @@
             }
         ]
     },
-    "Challenge":[
-        {
-            "ChallengeName": "No 1st Skill",
-            "ChallengeDetails": "Only Three Skills"
-        },
-        {
-            "ChallengeName": "No 2nd Skill",
-            "ChallengeDetails": "Only Three Skills"
-        },
-        {
-            "ChallengeName": "No 3rd Skill",
-            "ChallengeDetails": "Only Three Skills"
-        },
-        {
-            "ChallengeName": "No 4th Skill",
-            "ChallengeDetails": "Only Three Skills"
-        }
-    ]
+    "Challenge": {
+        "ALL": [
+            {
+                "ChallengeName": "No 1st Skill",
+                "ChallengeDetails": "Only Three Skills"
+            },
+            {
+                "ChallengeName": "No 2nd Skill",
+                "ChallengeDetails": "Only Three Skills"
+            },
+            {
+                "ChallengeName": "No 3rd Skill",
+                "ChallengeDetails": "Only Three Skills"
+            },
+            {
+                "ChallengeName": "No 4th Skill",
+                "ChallengeDetails": "Only Three Skills"
+            }
+        ],
+        "HardSupport": [
+            {
+                "ChallengeName": "From HardSup",
+                "ChallengeDetails": "Only Three Skills"
+            }
+        ],
+        "SoftSupport": [
+            {
+                "ChallengeName": "From SoftSup",
+                "ChallengeDetails": "Only Three Skills"
+            }
+        ],
+        "Offlane": [
+            {
+                "ChallengeName": "From Off",
+                "ChallengeDetails": "Only Three Skills"
+            }
+        ],
+        "Mid": [
+            {
+                "ChallengeName": "From Mid",
+                "ChallengeDetails": "Only Three Skills"
+            }
+        ],
+        "Carry": [
+            {
+                "ChallengeName": "From Carry",
+                "ChallengeDetails": "Only Three Skills"
+            }
+        ]
+    }
 }

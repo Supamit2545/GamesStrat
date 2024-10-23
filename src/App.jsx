@@ -10,9 +10,9 @@ import background from './assets/Homeimg/bg1.jpg'
 function App() {
   let i = 0;
   let images = []
-  images[0] = "src/assets/Homeimg/bg1.jpg";
-  images[1] = "src/assets/Homeimg/bg2.jpg";
-  images[2] = "src/assets/Homeimg/bg3.jpg";
+  images[0] = "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/Homeimg/bg1.jpg?raw=true";
+  images[1] = "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/Homeimg/bg2.jpg?raw=true";
+  images[2] = "https://github.com/Supamit2545/GamesStrat/blob/main/src/assets/Homeimg/bg3.jpg?raw=true";
   const AutoChangeBG = () => {
     const bgmain = document.querySelector('main');
     if (bgmain) {

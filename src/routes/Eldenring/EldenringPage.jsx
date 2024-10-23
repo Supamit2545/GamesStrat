@@ -19,21 +19,29 @@ const EldenringPage = () => {
             TextIntroBG.classList.remove('active');
         })
     }
-    
+    const RandomChallenge = () => {
+
+    }
+
     useEffect(() => {
         TextintroBG()
     }, [])
-    
+
     return (
         <div className='ER-Container'>
             <div className="ER-Header">
                 <Navbar />
             </div>
             <div className="ER-Body">
-                <img className='CenterBG' src={EldenringCenterBG} alt="" />
-                <div className="TextIntros">
-                    <p id='TextIntroBG' className='TextIntroBG'></p>
-                    <p id='TextIntro' className='TextIntro'>Get Challenge</p>
+                <div>
+                    <div className="TextIntros">
+                        <img className='CenterBG' src={EldenringCenterBG} alt="" />
+                        <p id='TextIntroBG' className='TextIntroBG'></p>
+                        <p id='TextIntro' className='TextIntro' onClick={RandomChallenge}>Get Challenge</p>
+                    </div>
+                </div>
+                <div className="RandomContent">
+                    pad
                 </div>
             </div>
         </div>
