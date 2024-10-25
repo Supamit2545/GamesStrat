@@ -12,8 +12,7 @@
 }
 .R6RCharactor-Show-Box.active{
     transition: all 1s ease;
-    width: 95%;
-    height: 50vh;
+    width: 80%;
     background: #00000050;
     border: 2px solid white;
     border-radius: 10px;
@@ -26,8 +25,8 @@
 }
 .R6RCharactor-Show-img{
     background: transparent;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     transition: all 0.5s ease;
 }
 .R6RCharactor-Show-img:hover{
@@ -37,7 +36,7 @@
 }
 .R6RCharactor-Show-Loadout{
     width: 700px;
-    height: 400px;
+    height: 300px;
     background: rgba(0, 0, 0, 0.699);
     border: 2px solid rgb(184, 184, 184);
     display: flex;

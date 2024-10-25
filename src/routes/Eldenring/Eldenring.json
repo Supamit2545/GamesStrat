@@ -1,0 +1,28 @@
+{
+    "Challenge":[
+        {
+            "Name":"Lv 1",
+            "How_to_play":"No need to up level play with LV1 until end",
+            "Detail":"Play with any class with based level do not level up allow item plus stats allow ",
+            "Extra":"None",
+            "LinkMod":"#",
+            "dlcNeeded":"No"
+        },
+        {
+            "Name":"Default Loadout",
+            "How_to_play":"End game with based loadout of class",
+            "Detail":"End game with based loadout of class don't change anything in loadout. U still can up stats enchant",
+            "Extra":"None",
+            "LinkMod":"#",
+            "dlcNeeded":"No"
+        },
+        {
+            "Name":"",
+            "How_to_play":"End game with based loadout of class",
+            "Detail":"End game with based loadout of class don't change anything in loadout. U still can up stats enchant",
+            "Extra":"None",
+            "LinkMod":"https://www.nexusmods.com/eldenring/mods/3419?tab=description",
+            "dlcNeeded":"Yes"
+        }
+    ]
+}

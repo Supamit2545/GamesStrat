@@ -6,6 +6,11 @@ import { Link } from 'react-router-dom'
 
 // Image Import
 import background from './assets/Homeimg/bg1.jpg'
+import Dota2 from './assets/img/GameslistPage/Dota2Logo.jpg'
+import Eldenring from './assets/img/GameslistPage/EldenringLogo.png'
+import R6Logo from './assets/img/GameslistPage/R6Logo.png'
+import Fortnite from './assets/img/GameslistPage/FortniteLogo.png'
+import Minecraft from './assets/img/GameslistPage/MinecraftLogo.png'
 
 function App() {
   let i = 0;
@@ -35,18 +40,24 @@ function App() {
         <div className='home-body-container'>
           <div className="home-body-container-left">
             <div className="home-left-text">
-              <h6 className='home-left-text1'>WELCOME</h6>
+              <h6 className='home-left-text1 h-40'>𝓦𝓮𝓵𝓬𝓸𝓶𝓮</h6>
               <p className='home-left-text2'>to</p>
               <div className="home-left-text3">
                 <span className='text-red-400'>GameStrat</span> <span>&</span> <span className='text-cyan-500'>Challenge</span>
               </div>
             </div>
-            <div className='home-left-btn'>
+            <div className='home-left-btn ml-24 '>
               <Link to="/Gameslist"><button className='left-btn-btn'>Let's GO</button></Link>
             </div>
           </div>
           <div className="home-body-container-right">
-
+            <div className='Home-Right-Pictures'>
+              <img className='Home-Right-Pic1' src={R6Logo} alt="" />
+              <img className='Home-Right-Pic2' src={Eldenring} alt="" />
+              <img className='Home-Right-Pic3' src={Fortnite} alt="" />
+              <img className='Home-Right-Pic4' src={Minecraft} alt="" />
+              <img className='Home-Right-PicCenter' src={Dota2} alt="" />
+            </div>
           </div>
         </div>
       </div>

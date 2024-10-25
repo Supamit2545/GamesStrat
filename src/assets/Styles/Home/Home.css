@@ -16,14 +16,23 @@
     cursor: default;
 }
 .home-left-text1{
-    color: white;
+    color: skyblue;
     font-weight: bolder;
-    
+    font-weight: bold;
+    font-size: 140px;
+    transition: all 1s ease;
+}
+.home-left-text1:hover{
+    color: rgb(15, 63, 255);
 }
 .home-left-text2{
     font-size: 80px;
     color: aqua;
     font-weight: bolder;
+    transition: all 1s ease;
+}
+.home-left-text2:hover{
+    color: rgb(15, 63, 255);
 }
 .home-left-text3{
     font-size: 40px;
@@ -34,33 +43,23 @@
 .home-left-text{
     padding: 16px;
 }
+.home-left-btn{
+    margin-top: 20%;
+}
 .left-btn-btn{
+    width: 500px;
     padding: 10px 70px;
     border: 2px solid black;
-    border-radius: 50px;
-    background: rgb(85,1,88);
-    background: linear-gradient(90deg,  
-        rgba(85,1,88,1) 0%,
-        rgba(130,5,70,1) 68%,
-        rgba(250,52,109,1) 100%
-    );
+    border-radius: 10px;
     color: white;
+    background: rgb(0, 40, 202);
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 50px;
     transition: all 0.5s ease-in-out;
 }
 .left-btn-btn:hover{
-    background: rgb(223, 6, 230);
-    background: linear-gradient(90deg,  
-    rgba(250,52,109,1) 0%
-    rgba(130,5,70,1) 68%,
-    rgba(85,1,88,1) 100%,
-    );
+    background: rgb(0, 140, 255);
 }
-@keyframes slicecolor{
-    
-}
-
 .right-back{
     width: 200px;
     height: 40vh;
@@ -71,4 +70,66 @@
         rgba(245,11,180,1) 21%, 
         rgba(5,30,244,1) 83%
     );
+}
+.Home-Right-Pictures{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background: #00000082;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 100px 50px skyblue;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.Home-Right-Pic1{
+    height: 100%;
+    border-radius: 100% 0px 0px 0px;
+    transition: all 1s ease
+}
+.Home-Right-Pic2{
+    height: 100%;
+    border-radius: 0px 100% 0px 0px;
+    transition: all 1s ease
+}
+.Home-Right-Pic3{
+    height: 100%;
+    border-radius: 0px 0px 0px 100%;
+    transition: all 1s ease
+}
+.Home-Right-Pic4{
+    height: 100%;
+    border-radius: 0px 0px 100% 0px;
+    transition: all 1s ease
+}
+.Home-Right-Pic1:hover{
+    scale: 1;
+    border-radius: 20px;
+}
+.Home-Right-Pic2:hover{
+    scale: 1;
+    border-radius: 20px;
+}
+.Home-Right-Pic3:hover{ 
+    scale: 1;
+    border-radius: 20px;
+}
+.Home-Right-Pic4:hover{
+    scale: 1;
+    border-radius: 20px;
+    cursor: url(''),auto;
+}
+.Home-Right-PicCenter{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    top: 30%;
+    left: 30%;
+    transition: all 1s ease;
+}
+.Home-Right-PicCenter:hover{
+    transform: scale(1.5);
 }
