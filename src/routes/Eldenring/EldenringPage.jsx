@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../../layout/Navbar'
 import '../../assets/Styles/Eldenring/Eldenring.css'
+import EldenringData from './Eldenring.json'
 
 // Import Image
 import EldenringCenterBG from '../../assets/img/Eldenring/EldenringCenterBG.jpg'
@@ -9,6 +10,9 @@ import ERKeyE from '../../assets/img/Eldenring/ER_Button_Icon_Keyboard_E.webp'
 
 const EldenringPage = () => {
     const [isLoading , setIsLoading] = useState(false);
+    const [DLC , setDLC] = useState();
+    const [LinkMod ,setLinkMod] = useState('#')
+    const [getCha , setGetCha] = useState(false)
 
     const TextintroBG = () => {
         const TextIntroBG = document.getElementById('TextIntroBG');
@@ -25,12 +29,37 @@ const EldenringPage = () => {
     const RandomChallenge = () => {
         const ERSTEXT = document.getElementById('ER-Random-Text');
         const Extra = document.getElementById('Extra-Random');
-        let x = Math.floor(Math.random() * 10);
+        const ChallengeName = document.getElementById('Detail-Challenge-Text1');
+        const HowtoPlay = document.getElementById('Detail-Challenge-Text2');
+        const DetailChallenge = document.getElementById('Detail-Challenge-Text3');
+        const DetailDLC = document.getElementById('Detail-Challenge-Text4');
+        const modimg = document.getElementById('mod-img');
+        const DetailMod = document.getElementById('Detail-Mod');
+        const LinkToMod = document.getElementById('LinkToMod');
+        
+        let x = Math.floor(Math.random() * EldenringData.Challenge.length);
         ERSTEXT.innerHTML = 'Loading...';
         Extra.innerHTML = 'Loading...';
+        ChallengeName.innerHTML = 'Loading...';
+        HowtoPlay.innerHTML = 'Loading...';
+        DetailChallenge.innerHTML = 'Loading...';
+        DetailDLC.innerHTML = 'Loading...';
         setTimeout(function(){
-            ERSTEXT.innerHTML = "เลขที่สุดล่าสุดคือ : " + x;
-            Extra.innerHTML = "ExtraRandomNum : " + x;
+            ERSTEXT.innerHTML = EldenringData.Challenge[x].Name;
+            ChallengeName.innerHTML = EldenringData.Challenge[x].Name;
+            HowtoPlay.innerHTML = EldenringData.Challenge[x].How_to_play;
+            DetailChallenge.innerHTML = EldenringData.Challenge[x].Detail;
+            DetailDLC.innerHTML = EldenringData.Challenge[x].dlcNeeded;
+            Extra.innerHTML = EldenringData.Challenge[x].Extra;
+            modimg.src = EldenringData.Challenge[x].ImgMod;
+            DetailMod.innerHTML = EldenringData.Challenge[x].DetailMod;
+            setLinkMod(EldenringData.Challenge[x].LinkMod);
+
+            if(EldenringData.Challenge[x].dlcNeeded  === 'Yes'){
+                setDLC(true)
+            }else{
+                setDLC(false)
+            }
         },900)
 
         console.log("Randomed Challenge");
@@ -62,10 +91,10 @@ const EldenringPage = () => {
                     <div className="TextIntros">
                         <img className='CenterBG' src={EldenringCenterBG} alt="" />
                         <p id='TextIntroBG' className='TextIntroBG'></p>
-                        <p id='TextIntro' className='TextIntro'>Get Challenge</p>
+                        <p id='TextIntro' className='TextIntro' onClick={(e)=>{setGetCha(true)}}>Get Challenge</p>
                     </div>
                 </div>
-                <div id='RandomContent' className="RandomContent active">
+                <div id='RandomContent' className={`RandomContent ${getCha == true ? "  active":""}`}>
                     <div className="RandomCon-Left">
                         <div className="RandomCon-Left-Show">
                             <div className='RandomCon-Left-TopLine'></div>
@@ -80,13 +109,14 @@ const EldenringPage = () => {
                         </div>
                         <p className='text-white text-4xl font-bold text-center underline'>Detail of Challenge</p>
                         <div className='Detail-Challenge-Show'>
-                            <p>Name : <span>Hello</span></p>
-                            <p>How to Play This Challenge : <span>Hello</span></p>
-                            <p>Detail Challenge : </p>
+                            <p>Name : <span id='Detail-Challenge-Text1' className='text-xl'></span></p>
+                            <p>How to Play This Challenge : <span id='Detail-Challenge-Text2' className='text-xl'></span></p>
+                            <p>Detail Challenge : <span id='Detail-Challenge-Text3' className='text-xl'></span></p>
+                            <p>DLC : <span id='Detail-Challenge-Text4' className={DLC == true ? ("text-red-500"):("text-green-500")}></span></p>
                         </div>
                     </div>
                     <div className="RandomCon-Right">
-                        <p className='text-center text-white font-bold text-5xl underline'>For FUN!</p>
+                        <p className='text-center text-sky-500 font-bold text-5xl underline'>For FUN!</p>
                         <div className='LiveSplit'>
                             <div className='flex'>  
                                 <img src="https://livesplit.org/images/icon.svg" alt="" width={50}/>
@@ -102,6 +132,15 @@ const EldenringPage = () => {
                         <div className='Forfun-random-show'>
                             <p id='Extra-Random' className='text-center font-bold text-white text-3xl underline'></p>
                             <p className='text-white font-mono font-bold text-xl'></p>
+                            <img className='mx-auto my-5' id='mod-img' src="" alt="" width={500}/>
+                            <p id='Detail-Mod' className='text-white text-center mb-5'></p>
+                            <div className='text-center'>
+                                {LinkMod === "#" ? (
+                                    <div></div>
+                                ):(
+                                    <a id='LinkToMod' href={LinkMod}><button className='border-2 border-sky-500 bg-blue-700 font-bold text-2xl px-3 py-1 hover:bg-blue-700 transition-all hover:text-white rounded-lg'>Download Mod</button></a>
+                                )}
+                            </div>
                         </div>
                     </div>
                 </div>

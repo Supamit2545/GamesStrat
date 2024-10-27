@@ -1,11 +1,13 @@
 {
     "Challenge":[
         {
-            "Name":"Lv 1",
+            "Name":"Lv 1 RUN",
             "How_to_play":"No need to up level play with LV1 until end",
             "Detail":"Play with any class with based level do not level up allow item plus stats allow ",
             "Extra":"None",
             "LinkMod":"#",
+            "ImgMod":"",
+            "DetailMod":"",
             "dlcNeeded":"No"
         },
         {
@@ -14,15 +16,29 @@
             "Detail":"End game with based loadout of class don't change anything in loadout. U still can up stats enchant",
             "Extra":"None",
             "LinkMod":"#",
+            "ImgMod":"",
+            "DetailMod":"",
             "dlcNeeded":"No"
         },
         {
-            "Name":"",
-            "How_to_play":"End game with based loadout of class",
-            "Detail":"End game with based loadout of class don't change anything in loadout. U still can up stats enchant",
-            "Extra":"None",
+            "Name":"Mod Convergence Run",
+            "How_to_play":"Like a normal game but it MOD",
+            "Detail":"Eldenring mod from AronTheBaron",
+            "Extra":"The Convergence",
             "LinkMod":"https://www.nexusmods.com/eldenring/mods/3419?tab=description",
+            "ImgMod":"https://staticdelivery.nexusmods.com/mods/4333/images/headers/3419_1682620809.jpg",
+            "DetailMod":"The Convergence mod is an exhaustive overhaul of Elden Ring with dozens of new weapons, hundreds of new spells, extensively revamped areas and maps, new enemies, bosses and much more.",
             "dlcNeeded":"Yes"
+        },
+        {
+            "Name":"GRACEBORNE - Bloodborne Inspired Overhaul Run",
+            "How_to_play":"Like a normal game but it MOD",
+            "Detail":"Eldenring mod from CorvianNoctis New Weapon New moveset",
+            "Extra":"GRACEBORNE - Bloodborne Inspired Overhaul",
+            "LinkMod":"https://www.nexusmods.com/eldenring/mods/5207",
+            "ImgMod":"https://staticdelivery.nexusmods.com/mods/4333/images/headers/5207_1718825025.jpg",
+            "DetailMod":"Graceborne is a mod overhaul still in its infancy. Heavily inspired by Bloodborne, its main goalis to turn Elden Ring's base game into a more grim and sinister experience through multiple means",
+            "dlcNeeded":"No"
         }
     ]
 }

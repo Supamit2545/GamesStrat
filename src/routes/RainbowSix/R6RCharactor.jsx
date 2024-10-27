@@ -172,7 +172,7 @@ const R6RCharactor = () => {
                         </div>
                     </div>
                 </div>
-                <div className='R6-Strat-TeamSelector'>
+                <div className='R6-Strat-TeamSelector mt-10'>
                     <div className='flex space-x-10 justify-center'>
                         <button className={`R6-Strat-TeamBTN ${Team == 'attacker' ? 'active' : ''}`} id='Dota2-Team-Radio' value="attacker" label="" onClick={(e) => { setTeam(e.target.value) }}>Attacker <img className='dualbladeicon' src={DualBlade} alt="" /> <span id='R6StratUnderline' className={`R6StratUnderline ${Team === 'attacker' ? "active" : ""}`}></span></button>
                         <button className={`R6-Strat-TeamBTN ${Team == 'defender' ? 'active' : ''}`} id='Dota2-Team-Radio' value="defender" label="" onClick={(e) => { setTeam(e.target.value) }}><img className='Rookicon' src={Rook} alt="" /> Defenders <span id='R6StratUnderline' className={`R6StratUnderline ${Team === 'defender' ? "active" : ""}`}></span></button>
